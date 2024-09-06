@@ -1,0 +1,4 @@
+.initTop>div:nth-child(1){
+    font-size: 35px;
+    color: var(--colorOrange);
+}

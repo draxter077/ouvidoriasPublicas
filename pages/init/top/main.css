@@ -1,0 +1,9 @@
+@import url("./title/main.css");
+
+.initTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    background: var(--colorBlue);
+}
