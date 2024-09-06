@@ -67,6 +67,8 @@ table {
 :root{
 	--colorWhite: rgb(255, 255, 255);
 	--colorBlack: rgb(0, 0, 0);
+	--colorOrange: rgb(243, 111, 33);
+	--colorBlue: rgb(20, 120, 180);
 	--transitionTime: 0.5s;
 }
 body{

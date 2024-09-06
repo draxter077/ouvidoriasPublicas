@@ -1,0 +1,9 @@
+.initBody>div:nth-child(2)>div{
+    text-align: center;
+    width: 45%;
+    background: var(--colorWhite);
+    margin: 0px 0px 10px 0px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 25px;
+}
