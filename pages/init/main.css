@@ -1,4 +1,5 @@
 @import url("./top/main.css");
+@import url("./body/main.css");
 
 .init{
     height: 100dvh;

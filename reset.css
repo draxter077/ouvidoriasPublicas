@@ -68,8 +68,11 @@ table {
 	--colorWhite: rgb(255, 255, 255);
 	--colorBlack: rgb(0, 0, 0);
 	--colorOrange: rgb(243, 111, 33);
-	--colorBlue: rgb(20, 120, 180);
+	--colorBlue: rgb(30, 150, 200);
 	--transitionTime: 0.5s;
+	--animationDelay1: 0.5s;
+	--animationDelay2: 1s;
+	--animationDelay3: 1.5s;
 }
 body{
 	box-sizing: border-box;

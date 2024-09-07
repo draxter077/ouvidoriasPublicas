@@ -1,0 +1,19 @@
+@import url("./posts/main.css");
+@import url("./events/main.css");
+@import url("./articles/main.css");
+
+.initBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    background: var(--colorBlue);
+}
+
+.initBody>div{
+    width: 30%;
+    background: var(--colorWhite);
+    padding: 10px 15px;
+    border-radius: 15px;
+}

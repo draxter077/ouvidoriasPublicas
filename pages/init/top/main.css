@@ -1,4 +1,5 @@
 @import url("./title/main.css");
+@import url("./menu/main.css");
 
 .initTop{
     display: flex;
@@ -6,4 +7,7 @@
     align-items: center;
     padding: 10px 15px;
     background: var(--colorBlue);
+ 
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
 }
