@@ -1,7 +1,4 @@
 .initTop>div:nth-child(1){
     font-size: 35px;
     color: var(--colorOrange);
-
-    opacity: 0;
-    animation: fadeIn var(--transitionTime) var(--animationDelay2) forwards;
 }

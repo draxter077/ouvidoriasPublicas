@@ -4,7 +4,4 @@
     display: flex;
     flex-direction: row;
     margin: 10px 0px 0px 0px;
-
-    opacity: 0;
-    animation: fadeIn var(--transitionTime) var(--animationDelay3) forwards;
 }

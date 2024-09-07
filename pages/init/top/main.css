@@ -11,3 +11,8 @@
     opacity: 0;
     animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
 }
+
+.initTop>div{
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) var(--animationDelay2) forwards;
+}

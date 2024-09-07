@@ -9,6 +9,9 @@
     width: 100%;
     padding: 20px 40px;
     background: var(--colorBlue);
+
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
 }
 
 .initBody>div{
@@ -16,4 +19,7 @@
     background: var(--colorWhite);
     padding: 10px 15px;
     border-radius: 15px;
+
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) var(--animationDelay3) forwards;
 }
