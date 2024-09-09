@@ -1,6 +1,5 @@
-@import url("./posts/main.css");
-@import url("./events/main.css");
-@import url("./articles/main.css");
+@import url("./leftSide/main.css");
+@import url("./rightSide/main.css");
 
 .initBody{
     display: flex;
@@ -14,18 +13,8 @@
     animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
 }
 
-.initBody>div{
-    width: 30%;
-    background: var(--colorWhite);
-    padding: 10px 15px;
-    border-radius: 15px;
-
-    opacity: 0;
-    animation: fadeIn var(--transitionTime) var(--animationDelay3) forwards;
-}
-
-.initBody>div>div:nth-child(1){
-    font-size: 25px;
-    text-align: center;
-    margin: 0px 0px 10px 0px;
+@media screen and (max-width: 1000px){
+    .initBody{
+        flex-direction: column;
+    }
 }

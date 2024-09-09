@@ -1,12 +1,10 @@
-import posts from "./posts/main.js"
-import events from "./events/main.js"
-import articles from "./articles/main.js"
+import leftSide from "./leftSide/main.js"
+import rightSide from "./rightSide/main.js"
 
 export default function body(){
     const body = document.createElement("div")
     body.className = "initBody"
-    body.appendChild(posts())
-    body.appendChild(events())
-    body.appendChild(articles())
+    body.appendChild(leftSide())
+    body.appendChild(rightSide())
     return(body)
 }

@@ -83,20 +83,21 @@ div{
 }
 ::-webkit-scrollbar{
     width: 5px;
+	background: none;
 }
-
 ::-webkit-scrollbar-track{
     background: none;
 	margin: 10px 0px;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: rgb(0, 255, 150);
+    background: var(--colorOrange);
     border-radius: 20px;
 }
 
 ::-webkit-scrollbar-button{
     height: 10px;
+	background: none;
     padding: none;
     margin: none;
 }

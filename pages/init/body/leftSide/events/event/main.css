@@ -1,0 +1,18 @@
+@import url("./photo/main.css");
+@import url("./title/main.css");
+
+.initBodyEventsEvent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid var(--colorOrange);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0px 0px 10px 0px;
+    cursor: pointer;
+    transition: box-shadow var(--transitionTime);
+}
+
+.initBodyEventsEvent:hover{
+    box-shadow: 0px 0px 8px 0px var(--colorOrange);
+}
