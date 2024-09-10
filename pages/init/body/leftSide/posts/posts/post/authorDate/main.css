@@ -1,10 +1,15 @@
 @import url("./author/main.css");
 @import url("./date/main.css");
 
-.initBodyPostsPost>div:nth-child(2){
+.initBodyLeftSidePostsPosts>div>div:nth-child(2){
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     margin: 5px 0px 0px 0px;
+    font-size: 13px;
+}
+
+.initBodyLeftSidePostsPosts>div>div:nth-child(2)>div:nth-child(1){
+    font-style: italic;
 }

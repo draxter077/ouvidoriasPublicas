@@ -1,1 +1,6 @@
-@import url("./event/main.css");
+@import url("./events/main.css");
+
+.initBodyLeftSideEvents{
+    width: 100%;
+    height: 100%;
+}

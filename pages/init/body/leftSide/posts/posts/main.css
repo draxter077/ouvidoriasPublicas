@@ -1,0 +1,7 @@
+@import url("./post/main.css");
+
+.initBodyLeftSidePostsPosts{
+    padding: 5px;
+    height: 85%;
+    overflow-y: scroll;
+}

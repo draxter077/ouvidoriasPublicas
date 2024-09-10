@@ -1,1 +1,6 @@
-@import url("./post/main.css");
+@import url("./posts/main.css");
+
+.initBodyLeftSidePosts{
+    width: 100%;
+    height: 100%;
+}

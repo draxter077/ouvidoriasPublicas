@@ -1,6 +1,5 @@
 export default function title(){
     const title = document.createElement("div")
-    title.className = "initBodyLeftSide_title"
-    title.innerHTML = "Eventos"
+    title.innerHTML = "Algum título de postagem"
     return(title)
 }
