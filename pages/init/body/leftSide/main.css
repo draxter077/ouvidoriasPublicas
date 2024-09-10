@@ -15,6 +15,7 @@
     padding: 10px 15px;
     border-radius: 15px;
     margin: 0px 0px 10px 0px;
+    transition: height var(--transitionTime);
 }
 
 .initBodyLeftSide_title{
