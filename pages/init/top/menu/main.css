@@ -1,7 +1,0 @@
-@import url("./option/main.css");
-
-.initTop>div:nth-child(2){
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0px 0px 0px;
-}

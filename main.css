@@ -1,1 +1,9 @@
-@import url("./pages/init/main.css");
+@import url("./styles/display.css");
+@import url("./styles/width.css");
+@import url("./styles/height.css");
+@import url("./styles/background.css");
+@import url("./styles/padding.css");
+@import url("./styles/border.css");
+@import url("./styles/color.css");
+@import url("./styles/fontSize.css");
+@import url("./styles/textAlign.css");

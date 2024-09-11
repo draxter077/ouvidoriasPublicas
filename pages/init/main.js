@@ -1,10 +1,8 @@
 import top from "./top/main.js"
-import body from "./body/main.js"
 
 export default function init(){
     const init = document.createElement("div")
-    init.className = "init"
+    init.className = "width100dvw height100dvh"
     init.appendChild(top())
-    init.appendChild(body())
     return(init)
 }

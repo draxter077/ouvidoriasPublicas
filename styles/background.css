@@ -1,0 +1,7 @@
+.backgroundRed{
+    background: red;
+}
+
+.backgroundColorBlue{
+    background: var(--colorBlue);
+}
