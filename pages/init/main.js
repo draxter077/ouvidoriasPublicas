@@ -1,9 +1,9 @@
 import background from "./background/main.js"
-import top from "./top/main.js"
+import content from "./content/main.js"
 
 export default function init(){
     const init = document.createElement("div")
     init.appendChild(background())
-    init.appendChild(top())
+    init.appendChild(content())
     return(init)
 }
