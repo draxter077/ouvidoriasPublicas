@@ -25,7 +25,7 @@ time, mark, audio, video, button, input, textarea {
 input:focus, button:focus{
 	outline: none;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img {
 	display: block;
 }
 body {
@@ -45,62 +45,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-@keyframes fadeIn {
-	from{opacity: 0;}
-	to{opacity: 1;}
-}
-@keyframes fadeOut {
-	from{opacity: 1;}
-	to{opacity: 0;}
-}
-@keyframes inputWrongValue {
-	0%{box-shadow: 0px 0px 0px 0px rgb(255, 50, 0);}
-	50%{box-shadow: 0px 0px 10px 0px rgb(255, 50, 0);}
-	100%{box-shadow: 0px 0px 0px 0px rgb(255, 50, 0);}
-}
-@keyframes inputRightValue {
-	0%{box-shadow: 0px 0px 0px 0px rgb(0, 255, 50);}
-	50%{box-shadow: 0px 0px 10px 0px rgb(0, 255, 50);}
-	100%{box-shadow: 0px 0px 0px 0px rgb(0, 255, 50);}
-}
-:root{
-	--colorWhite: rgb(255, 255, 255);
-	--colorBlack: rgb(0, 0, 0);
-	--colorOrange: rgb(243, 111, 33);
-	--colorBlue: rgb(30, 150, 200);
-	--transitionTime: 0.5s;
-	--animationDelay1: 0.5s;
-	--animationDelay2: 1s;
-	--animationDelay3: 1.5s;
-}
-body{
-	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
-	color: var(--colorBlue);
-	cursor: default;
-}
 div{
 	box-sizing: border-box;
-}
-::-webkit-scrollbar{
-    width: 3px;
-	background: none;
-}
-
-::-webkit-scrollbar-track{
-    background: none;
-	margin: 10px 0px;
-}
-
-::-webkit-scrollbar-thumb{
-    background: var(--colorOrange);
-    border-radius: 20px;
-}
-
-::-webkit-scrollbar-button{
-    height: 10px;
-	background: none;
-    padding: 0px;
-    margin: 0px;
 }

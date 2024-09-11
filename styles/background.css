@@ -1,7 +1,7 @@
-.backgroundRed{
-    background: red;
-}
-
 .backgroundColorBlue{
     background: var(--colorBlue);
+}
+
+.backgroundColorWhite{
+    background: var(--colorWhite);
 }

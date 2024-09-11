@@ -1,0 +1,13 @@
+.animationFadeIn{
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
+}
+.animationWidther{
+    width: 0%;
+    animation: widther var(--transitionTime) var(--animationDelay1) forwards;
+}
+.animationFadeIn_widther{
+    width: 0%;
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards, widther var(--transitionTime) var(--animationDelay1) forwards;
+}

@@ -1,3 +1,11 @@
 .borderRadius15px{
     border-radius: 15px;
 }
+
+.borderRadius10px{
+    border-radius: 10px;
+}
+
+.border1pxSolidColorBlue{
+    border: 1px solid var(--colorBlue);
+}
