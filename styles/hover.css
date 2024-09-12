@@ -1,0 +1,8 @@
+.hoverChangeColorBlueToOrange{
+    color: var(--colorBlue);
+    transition: color var(--transitionTime);
+    cursor: pointer;
+}
+.hoverChangeColorBlueToOrange:hover{
+    color: var(--colorOrange);
+}

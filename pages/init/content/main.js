@@ -3,7 +3,7 @@ import body from "./body/main.js"
 
 export default function content(){
     const content = document.createElement("div")
-    content.className = "width100 positionFixed top0"
+    content.className = "width100 height100 positionFixed flexColumn alignItemsCenter top0"
     content.appendChild(top())
     content.appendChild(body())
     return(content)

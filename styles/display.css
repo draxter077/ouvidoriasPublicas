@@ -8,8 +8,16 @@
     flex-direction: row;
 }
 
-.justifySpaceBetween{
+.justifyContentSpaceBetween{
     justify-content: space-between;
+}
+
+.justifyContentFlexEnd{
+    justify-content: flex-end;
+}
+
+.justifyContentCenter{
+    justify-content: center;
 }
 
 .alignItemsCenter{
