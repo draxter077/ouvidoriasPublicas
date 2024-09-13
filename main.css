@@ -12,9 +12,8 @@
 @import url("./styles/boxShadow.css");
 @import url("./styles/overflow.css");
 @import url("./styles/opacity.css");
-@import url("./styles/keyFrames.css");
 @import url("./styles/animation.css");
-@import url("./styles/hover.css");
+@import url("./styles/fontWeight.css");
 
 .teste{
 	height: 50px;

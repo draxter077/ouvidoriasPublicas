@@ -1,3 +1,22 @@
 .colorColorWhite{
     color: var(--colorWhite);
 }
+
+.hColorWhiteToColorBlue{
+    color: var(--colorWhite);
+    transition: color var(--transitionTime);
+    cursor: pointer;
+}
+
+.hColorBlueToColorOrange{
+    color: var(--colorBlue);
+    transition: color var(--transitionTime);
+    cursor: pointer;
+}
+.hColorBlueToColorOrange:hover{
+    color: var(--colorOrange);
+}
+
+.hColorWhiteToColorBlue:hover{
+    color: var(--colorBlue);
+}
