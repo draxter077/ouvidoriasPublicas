@@ -1,6 +1,6 @@
 export default function option(){
     const option = document.createElement("div")
-    option.className = "height100 width100 borderRadius15px backgroundColorWhite padding10px15px"
+    option.className = "width100 borderRadius15px backgroundColorWhite padding10px15px"
     option.innerHTML = "Voltar"
 
     option.onclick = function a(){

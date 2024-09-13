@@ -14,6 +14,7 @@
 @import url("./styles/opacity.css");
 @import url("./styles/animation.css");
 @import url("./styles/fontWeight.css");
+@import url("./styles/translate.css");
 
 .teste{
 	height: 50px;

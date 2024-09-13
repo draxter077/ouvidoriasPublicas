@@ -1,3 +1,5 @@
+import ombudsmanMundo from "./ombudsmanMundo/main.js"
+
 export default function option(d){
     const option = document.createElement("div")
     option.className = `backgroundColorWhite 
@@ -17,5 +19,14 @@ export default function option(d){
         d.style.translate = "-50%"
     }
     option.innerHTML = d
+    if(d == "Ombudsman no mundo"){
+        option.onclick = function a(){
+            let d = document.getElementById("1")
+            d.style.transition = "translate var(--transitionTime)"
+            d.style.translate = "-50%"
+            let rightSide = document.getElementById("rightSide")
+            rightSide.appendChild(ombudsmanMundo())
+        }
+    }
     return(option)
 }
