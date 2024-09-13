@@ -3,10 +3,10 @@ export default function option(d){
     option.className = `fontWeight900 
                         fontSize18px 
                         rMarginNoneToMargin0px0px10px0px
-                        colorColorWhite
+                        hColorWhiteToColorOrange
                         padding10px15px
                         borderRadius15px
-                        hBackgroundNoneToColorBlue`
+                        backgroundColorBlue`
     option.innerHTML = d
     return(option)
 }

@@ -5,13 +5,3 @@
 .backgroundColorWhite{
     background: var(--colorWhite);
 }
-
-.hBackgroundNoneToColorBlue{
-    background: none;
-    transition: background var(--transitionTime);
-    cursor: pointer;
-}
-
-.hBackgroundNoneToColorBlue:hover{
-    background: var(--colorBlue);
-}
