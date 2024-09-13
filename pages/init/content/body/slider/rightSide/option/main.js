@@ -8,5 +8,6 @@ export default function option(){
         d.style.transition = "translate var(--transitionTime)"
         d.style.translate = "0%"
     }
+    
     return(option)
 }

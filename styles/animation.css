@@ -15,3 +15,8 @@
     opacity: 0;
     animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards, widther var(--transitionTime) var(--animationDelay1) forwards;
 }
+
+.animationFadeInDelay0{
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) 0s forwards;
+}
