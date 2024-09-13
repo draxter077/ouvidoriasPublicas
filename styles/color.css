@@ -8,12 +8,18 @@
     cursor: pointer;
 }
 
+.hColorWhiteToColorOrange{
+    color: var(--colorWhite);
+    transition: color var(--transitionTime);
+    cursor: pointer;
+}
+
 .hColorBlueToColorOrange{
     color: var(--colorBlue);
     transition: color var(--transitionTime);
     cursor: pointer;
 }
-.hColorBlueToColorOrange:hover{
+.hColorBlueToColorOrange:hover, .hColorWhiteToColorOrange:hover{
     color: var(--colorOrange);
 }
 
