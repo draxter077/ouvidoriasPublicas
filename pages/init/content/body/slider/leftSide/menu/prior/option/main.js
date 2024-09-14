@@ -17,6 +17,7 @@ export default function option(d, f){
             d.style.transition = "translate var(--transitionTime)"
             d.style.translate = "-50%"
             let rightSide = document.getElementById("rightSide")
+            rightSide.innerHTML = ""
             rightSide.appendChild(f())
         }
     }

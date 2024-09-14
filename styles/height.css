@@ -2,6 +2,14 @@
     height: 100%;
 }
 
+.height30{
+    height: 30%;
+}
+
+.heightFitContent{
+    height: fit-content;
+}
+
 .height100dvh{
     height: 100dvh;
 }
