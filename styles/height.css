@@ -6,6 +6,14 @@
     height: 30%;
 }
 
+.height50{
+    height: 50%;
+}
+
+.height90{
+    height: 90%;
+}
+
 .heightFitContent{
     height: fit-content;
 }

@@ -15,6 +15,7 @@
 @import url("./styles/animation.css");
 @import url("./styles/fontWeight.css");
 @import url("./styles/translate.css");
+@import url("./styles/transition.css");
 
 .teste{
 	height: 50px;

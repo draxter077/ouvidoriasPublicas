@@ -6,6 +6,14 @@
     border-radius: 10px;
 }
 
+.borderRadius15{
+    border-radius: 100%;
+}
+
+.borderRadius10{
+    border-radius: 10%;
+}
+
 .border1pxSolidColorBlue{
     border: 1px solid var(--colorBlue);
 }

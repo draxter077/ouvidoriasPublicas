@@ -1,4 +1,5 @@
 import option from "./option/main.js"
+import ombudsmanWorld from "../../../../rightSide/ombudsmanWorld/main.js"
 
 export default function prior(){
     const prior = document.createElement("div")
@@ -6,7 +7,7 @@ export default function prior(){
     let ops = [{title: "Eventos", f: undefined}, 
                 {title: "Notícias", f: undefined}, 
                 {title: "Publicações", f: undefined}, 
-                {title: "Ombudsman no mundo", f: undefined}, 
+                {title: "Ombudsman no mundo", f: ombudsmanWorld}, 
                 {title: "Ombudsman no Brasil", f: undefined}
             ]
     for(let i = 0; i < ops.length; i++){

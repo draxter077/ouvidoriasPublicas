@@ -5,3 +5,7 @@
 .backgroundColorWhite{
     background: var(--colorWhite);
 }
+
+.backgroundNone{
+    background: none;
+}

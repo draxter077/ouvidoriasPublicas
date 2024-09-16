@@ -11,14 +11,13 @@ export default function option(d, f){
                         hColorBlueToColorOrange 
                         fontSize21px
                         rMarginNoneToMargin0px0px10px0px`
-    if(f == undefined){
+    if(f != undefined){
         option.onclick = function a(){
             let d = document.getElementById("initBodySlider")
-            d.style.transition = "translate var(--transitionTime)"
             d.style.translate = "-50%"
             let rightSide = document.getElementById("rightSide")
-            //rightSide.innerHTML = ""
-            //rightSide.appendChild(f())
+            rightSide.innerHTML = ""
+            rightSide.appendChild(f())
         }
     }
     option.innerHTML = d
