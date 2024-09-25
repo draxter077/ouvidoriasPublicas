@@ -13,7 +13,7 @@ export default function leftSide(){
         @media screen and (max-width: 1000px){
             .initContentSliderRightSideOmbudsmanWorldBodyLeftSide{
                 width: 100%;
-                height: 50%;
+                height: fit-content;
             }
         }`
 

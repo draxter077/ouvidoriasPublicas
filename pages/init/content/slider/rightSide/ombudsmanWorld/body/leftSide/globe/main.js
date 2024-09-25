@@ -12,7 +12,12 @@ export default function globe(){
             width: 100%;
             border-radius: 50%;
         }
-    `
+            
+        @media screen and (max-width: 1000px){
+            .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>img{
+                margin: 0px 0px 10px 0px;
+            }
+        }`
 
     const globe = document.createElement("div")
     globe.className = "initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe"
