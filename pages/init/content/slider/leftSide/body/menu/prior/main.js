@@ -1,5 +1,6 @@
 import option from "./option/main.js"
 import ombudsmanWorld from "../../../../rightSide/ombudsmanWorld/main.js"
+import ombudsmanBrazil from "../../../../rightSide/ombudsmanBrazil/main.js"
 
 export default function prior(){
     document.getElementsByTagName("style")[0].innerHTML += `
@@ -47,7 +48,7 @@ export default function prior(){
                 {title: "Notícias", f: undefined}, 
                 {title: "Publicações", f: undefined}, 
                 {title: "Ombudsman no mundo", f: ombudsmanWorld}, 
-                {title: "Ombudsman no Brasil", f: undefined}
+                {title: "Ombudsman no Brasil", f: ombudsmanBrazil}
             ]
     for(let i = 0; i < ops.length; i++){
         prior.appendChild(option(ops[i].title, ops[i].f))
