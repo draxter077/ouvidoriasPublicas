@@ -11,7 +11,7 @@ export default function rightSide(){
         @media screen and (max-width: 1000px){
             .initContentSliderRightSideOmbudsmanWorldBodyRightSide{
                 width: 100%;
-                height: fit-content;
+                height: 100%;
             }
         }`
 
