@@ -1,6 +1,6 @@
 export default function option(t){
     document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanWorldBodyRightSideOption{
+        .initContentSliderRightSideOmbudsmanBrazilBodyRightSideOption{
             padding: 10px;
             background: var(--colorBlue);
             border-radius: 15px;
@@ -9,7 +9,7 @@ export default function option(t){
             color: var(--colorWhite);
         }`
     const option = document.createElement("div")
-    option.className = "initContentSliderRightSideOmbudsmanWorldBodyRightSideOption"
+    option.className = "initContentSliderRightSideOmbudsmanBrazilBodyRightSideOption"
     option.innerHTML = t
     return(option)
 }

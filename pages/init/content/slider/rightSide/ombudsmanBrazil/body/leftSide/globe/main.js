@@ -2,25 +2,25 @@ import img from "./img/main.js"
 
 export default function globe(){
     document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe{
+        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideGlobe{
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
         }
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>img{
+        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideGlobe>img{
             width: 100%;
             border-radius: 50%;
         }
             
         @media screen and (max-width: 1000px){
-            .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>img{
+            .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideGlobe>img{
                 margin: 0px 0px 10px 0px;
             }
         }`
 
     const globe = document.createElement("div")
-    globe.className = "initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe"
+    globe.className = "initContentSliderRightSideOmbudsmanBrazilBodyLeftSideGlobe"
     globe.appendChild(img())
     return(globe)
 }

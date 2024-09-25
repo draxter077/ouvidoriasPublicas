@@ -2,10 +2,10 @@ import input from "./input/main.js"
 
 export default function search(){
     document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideSearch{
+        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch{
             width: 100%;
         }
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideSearch>input{
+        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch>input{
             width: 100%;
             border-radius: 10px;
             border: 1px solid var(--colorBlue);
@@ -13,7 +13,7 @@ export default function search(){
         }`
 
     const search = document.createElement("div")
-    search.className = "initContentSliderRightSideOmbudsmanWorldBodyLeftSideSearch"
+    search.className = "initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch"
     search.appendChild(input())
     return(search)
 }

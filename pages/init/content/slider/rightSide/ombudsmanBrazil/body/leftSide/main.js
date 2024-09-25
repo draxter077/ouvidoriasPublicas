@@ -3,7 +3,7 @@ import search from "./search/main.js"
 
 export default function leftSide(){
     document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSide{
+        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSide{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -11,14 +11,14 @@ export default function leftSide(){
             height: 90%;
         }  
         @media screen and (max-width: 1000px){
-            .initContentSliderRightSideOmbudsmanWorldBodyLeftSide{
+            .initContentSliderRightSideOmbudsmanBrazilBodyLeftSide{
                 width: 100%;
                 height: fit-content;
             }
         }`
 
     const leftSide = document.createElement("div")
-    leftSide.className = "initContentSliderRightSideOmbudsmanWorldBodyLeftSide"
+    leftSide.className = "initContentSliderRightSideOmbudsmanBrazilBodyLeftSide"
     leftSide.appendChild(globe())
     leftSide.appendChild(search())
     return(leftSide)
