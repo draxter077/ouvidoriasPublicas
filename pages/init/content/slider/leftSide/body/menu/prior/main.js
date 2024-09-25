@@ -2,8 +2,44 @@ import option from "./option/main.js"
 import ombudsmanWorld from "../../../../rightSide/ombudsmanWorld/main.js"
 
 export default function prior(){
+    document.getElementsByTagName("style")[0].innerHTML += `
+        .initContentSliderLeftSideBodyMenuPrior{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0px 0px 10px 0px;
+        }
+        .initContentSliderLeftSideBodyMenuPrior>div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 18%;
+            text-align: center;
+            padding: 10px 15px;
+            background: var(--colorWhite);
+            border-radius: 15px;
+            color: var(--colorBlue);
+            transition: color var(--transitionTime);
+            cursor: pointer;
+            font-size: 21px;
+            margin: none;
+        }
+        .initContentSliderLeftSideBodyMenuPrior>div:hover{
+            color: var(--colorOrange);
+        }
+        @media screen and (max-width: 1000px){
+            .initContentSliderLeftSideBodyMenuPrior{
+                flex-direction: column;
+            }
+            .initContentSliderLeftSideBodyMenuPrior>div{
+                width: 100%;
+                margin: 0px 0px 10px 0px;
+            }
+        }`
+
     const prior = document.createElement("div")
-    prior.className = "width100 rFlexRowToFlexColumn justifyContentSpaceBetween margin0px0px10px0px"
+    prior.className = "initContentSliderLeftSideBodyMenuPrior"
     let ops = [{title: "Eventos", f: undefined}, 
                 {title: "Notícias", f: undefined}, 
                 {title: "Publicações", f: undefined}, 
