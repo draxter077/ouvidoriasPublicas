@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>testekkk</title>
+
+        <style>
+            #rangeInput{
+                box-sizing: border-box;
+                -webkit-appearance: none;  /* Override default CSS styles */
+                appearance: none;
+                width: 50%; /* Full-width */
+                height: 25px; /* Specified height */
+                background: black; /* Grey background */
+                outline: none; /* Remove outline */
+                border-radius: 15px;
+                padding: 10px;
+            }
+            #rangeInput::-webkit-slider-thumb {
+                -webkit-appearance: none; /* Override default look */
+                appearance: none;
+                width: 15px; /* Set a specific slider handle width */
+                height: 15px; /* Slider handle height */
+                background: #04AA6D; /* Green background */
+                border-radius: 15px;
+                cursor: pointer; /* Cursor on hover */
+            }
+        </style>
+    </head>
+
+    <body>
+        <input id="rangeInput" type="range" value="50" min="1" max="100" 
+            onclick="changeValue()" 
+            onmousemove="changeValue()"
+        >
+        <h3>v: <span id="rangeInputValue">50</span>%</h3>
+    </body>
+</html>
+
+<script>
+    function changeValue(){
+        const v = document.getElementById("rangeInput").value
+        const s = document.getElementById("rangeInputValue")
+        s.innerHTML = v
+    }
+</script>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>testekkk</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            #window{
+                border: 1px solid black;
+                width: 30%;
+                height: 100px;
+                overflow: scroll;
+                scroll-behavior: smooth;
+            }
+            #slider{
+                display: flex;
+                flex-direction: row;
+                width: 400%;
+                height: 100%;
+            }
+            #page1, #page2, #page3, #page4{
+                width: 100%;
+                height: 100%;
+            }
+            #page1{
+                background: green;
+            }
+            #page2{
+                background: yellow;
+            }
+            #page3{
+                background: red;
+            }
+            #page4{
+                background: purple;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="window" onscrollend="moveDiv(this)">
+            <div id="slider">
+                <div id="page1">1</div>
+                <div id="page2">2</div>
+                <div id="page3">3</div>
+                <div id="page4">4</div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    document.getElementById("window").addEventListener("scrollend", moveDiv)
+    function moveDiv(e){
+        const xEnd = e.scrollLeft
+        const xTotal = e.scrollWidth
+        const xForPage = xTotal/4
+        if(xEnd >= xForPage*2.5){
+            e.scrollLeft = xForPage*3
+        }
+        else if(xEnd >= xForPage*1.5){
+            e.scrollLeft = xForPage*2
+        }
+        else if(xEnd >= xForPage*0.5){
+            e.scrollLeft = xForPage*1
+        }
+        else{
+            e.scrollLeft = 0
+        }
+    }
+</script>
