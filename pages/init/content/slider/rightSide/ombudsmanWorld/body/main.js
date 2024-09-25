@@ -8,6 +8,12 @@ export default function body(){
             flex-direction: row;
             height: 100%;
             width: 100%;
+        }
+            
+        @media screen and (max-width: 1000px){
+            .initContentSliderRightSideOmbudsmanWorldBody{
+                flex-direction: column;
+            }
         }`
 
     const body = document.createElement("div")

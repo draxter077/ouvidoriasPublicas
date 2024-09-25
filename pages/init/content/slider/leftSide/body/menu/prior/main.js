@@ -14,19 +14,22 @@ export default function prior(){
             display: flex;
             flex-direction: row;
             justify-content: center;
+            align-items: center;
             width: 18%;
             text-align: center;
             padding: 10px 15px;
             background: var(--colorWhite);
             border-radius: 15px;
             color: var(--colorBlue);
-            transition: color var(--transitionTime);
+            transition: color var(--transitionTime), border var(--transitionTime);
             cursor: pointer;
             font-size: 21px;
             margin: none;
+            border: 2px solid var(--colorWhite);
         }
         .initContentSliderLeftSideBodyMenuPrior>div:hover{
             color: var(--colorOrange);
+            border: 2px solid var(--colorBlue);
         }
         @media screen and (max-width: 1000px){
             .initContentSliderLeftSideBodyMenuPrior{

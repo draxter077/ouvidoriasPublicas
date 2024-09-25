@@ -10,7 +10,7 @@ export default function globe(){
         }
         .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>img{
             width: 100%;
-            border-radius: 15px;
+            border-radius: 50%;
         }
     `
 

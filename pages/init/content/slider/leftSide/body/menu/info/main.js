@@ -19,11 +19,12 @@ export default function info(){
             background: var(--colorBlue);
             text-align: center;
             font-weight: 900;
-            transition: color var(--transitionTime);
+            transition: border var(--transitionTime);
+            border: 2px solid var(--colorBlue);
+            cursor: pointer;
         }
         .initContentSliderLeftSideBodyMenuInfo>div:hover{
-            color: var(--colorOrange);
-            cursor: pointer;
+            border: 2px solid var(--colorOrange);
         }
         @media screen and (max-width: 1000px){
             .initContentSliderLeftSideBodyMenuInfo{

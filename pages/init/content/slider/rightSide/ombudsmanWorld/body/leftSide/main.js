@@ -9,6 +9,12 @@ export default function leftSide(){
             justify-content: space-between;
             width: 50%;
             height: 90%;
+        }  
+        @media screen and (max-width: 1000px){
+            .initContentSliderRightSideOmbudsmanWorldBodyLeftSide{
+                width: 100%;
+                height: 50%;
+            }
         }`
 
     const leftSide = document.createElement("div")

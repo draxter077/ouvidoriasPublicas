@@ -1,5 +1,5 @@
 export default function rightSide(){
-    document.getElementsByTagName("style")[0].innerHTMl += `
+    document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderRightSide{
             width: 50%;
             height: 100%;

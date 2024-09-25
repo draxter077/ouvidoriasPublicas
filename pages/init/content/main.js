@@ -7,6 +7,8 @@ export default function content(){
             height: 100%;
             position: fixed;
             top: 0%;
+            opacity: 0;
+            animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
         }`
 
     const content = document.createElement("div")
