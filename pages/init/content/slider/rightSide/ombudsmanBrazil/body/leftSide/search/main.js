@@ -15,5 +15,6 @@ export default function search(){
     const search = document.createElement("div")
     search.className = "initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch"
     search.appendChild(input())
+    console.log(search)
     return(search)
 }
