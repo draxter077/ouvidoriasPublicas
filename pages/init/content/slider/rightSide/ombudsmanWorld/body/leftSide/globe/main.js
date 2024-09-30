@@ -1,5 +1,5 @@
 import img from "./img/main.js"
-import option from "./img/option/main.js"
+import option from "./option/main.js"
 
 export default function globe(){
     document.getElementsByTagName("style")[0].innerHTML += `
@@ -28,7 +28,7 @@ export default function globe(){
     globe.className = "initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe"
     globe.appendChild(img())
 
-    const c = [{t: "Argentina", top: "75%", left: "24%"},
+    const c = [{t: "Argentina", top: "74%", left: "24%"},
             {t: "Brasil", top: "60%", left: "27%"}
             ]
     for(let i = 0; i < c.length; i++){
