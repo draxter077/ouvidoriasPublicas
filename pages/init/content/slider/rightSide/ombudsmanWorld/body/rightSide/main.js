@@ -17,9 +17,9 @@ export default function rightSide(){
 
     const rightSide = document.createElement("div")
     rightSide.className = "initContentSliderRightSideOmbudsmanWorldBodyRightSide"
-    const cs = ["País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País"]
+    const cs = ["País", "País", "País", "País", "País", "País", "Argentina", "Brasil", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País"]
     for(let i = 0; i < cs.length; i++){
-        rightSide.appendChild(option(cs[i] + i))
+        rightSide.appendChild(option(cs[i]))
     }
     return(rightSide)
 }

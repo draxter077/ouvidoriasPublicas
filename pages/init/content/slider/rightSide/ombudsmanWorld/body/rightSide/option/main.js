@@ -11,5 +11,6 @@ export default function option(t){
     const option = document.createElement("div")
     option.className = "initContentSliderRightSideOmbudsmanWorldBodyRightSideOption"
     option.innerHTML = t
+    option.id = t
     return(option)
 }

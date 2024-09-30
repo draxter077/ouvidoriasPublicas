@@ -1,4 +1,5 @@
 import img from "./img/main.js"
+import option from "./img/option/main.js"
 
 export default function globe(){
     document.getElementsByTagName("style")[0].innerHTML += `
@@ -7,20 +8,31 @@ export default function globe(){
             flex-direction: column;
             align-items: center;
             width: 100%;
+            position: relative;
         }
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>img{
-            width: 100%;
-            border-radius: 50%;
+        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>div{
+            position: absolute;
+            background: var(--colorBlack);
+            height: 7px;
+            width: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: height var(--transitionTime), width var(--transitionTime);
         }
-            
-        @media screen and (max-width: 1000px){
-            .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>img{
-                margin: 0px 0px 10px 0px;
-            }
+        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>div:hover{
+            height: 15px;
+            width: 15px;
         }`
 
     const globe = document.createElement("div")
     globe.className = "initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe"
     globe.appendChild(img())
+
+    const c = [{t: "Argentina", top: "75%", left: "24%"},
+            {t: "Brasil", top: "60%", left: "27%"}
+            ]
+    for(let i = 0; i < c.length; i++){
+        globe.appendChild(option(c[i].t, c[i].top, c[i].left))
+    }
     return(globe)
 }
