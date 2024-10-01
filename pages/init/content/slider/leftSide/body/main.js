@@ -9,7 +9,6 @@ export default function body(){
             flex-direction: column;
             align-items: center;
             justify-content: flex-end;
-            padding: 20px;
         }`
 
     const body = document.createElement("div")

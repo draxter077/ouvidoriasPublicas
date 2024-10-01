@@ -9,19 +9,6 @@ export default function globe(){
             align-items: center;
             width: 100%;
             position: relative;
-        }
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>div{
-            position: absolute;
-            background: var(--colorBlack);
-            height: 7px;
-            width: 7px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: height var(--transitionTime), width var(--transitionTime);
-        }
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>div:hover{
-            height: 15px;
-            width: 15px;
         }`
 
     const globe = document.createElement("div")

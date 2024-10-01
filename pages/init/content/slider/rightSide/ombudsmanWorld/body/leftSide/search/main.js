@@ -5,12 +5,6 @@ export default function search(){
         .initContentSliderRightSideOmbudsmanWorldBodyLeftSideSearch{
             width: 100%;
         }
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideSearch>input{
-            width: 100%;
-            border-radius: 10px;
-            border: 1px solid var(--colorBlue);
-            padding: 10px 15px;
-        }
             
         @media screen and (max-width: 1000px){
             .initContentSliderRightSideOmbudsmanWorldBodyLeftSideSearch{

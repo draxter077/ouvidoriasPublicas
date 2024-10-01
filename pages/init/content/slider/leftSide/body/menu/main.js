@@ -10,7 +10,6 @@ export default function menu(){
             flex-direction: column;
             align-items: center;
             justify-content: flex-end;
-            padding: 20px 25px;
             border-radius: 15px;
             font-size: 15px;
         }`

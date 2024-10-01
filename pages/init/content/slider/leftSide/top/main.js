@@ -1,7 +1,6 @@
 export default function top(){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderLeftSideTop{
-            width: 100%;
             padding: 10px 15px;
             text-align: center;
             font-size: 40px;

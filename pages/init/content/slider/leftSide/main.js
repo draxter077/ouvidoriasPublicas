@@ -8,8 +8,9 @@ export default function leftSide(){
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
+            justify-content: space-between;
             align-items: center;
+            padding: 20px;
         }`
 
     const leftSide = document.createElement("div")
