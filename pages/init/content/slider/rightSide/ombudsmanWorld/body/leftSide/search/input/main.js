@@ -13,9 +13,22 @@ export default function input(){
 
     const input = document.createElement("input")
     input.placeholder = "Pesquise um país"
-    input.onchange = function a(Event){
-        const inpt = Window.find(Event.target.value)
-        console.log(inpt)
-    }
+    input.addEventListener("input", function a(Event){
+        const inp = Event.target.value
+        let q = ""
+        for(let i = 0; i < inp.length; i++){
+            if(i == 0){
+                q += inp[i].toUpperCase()
+            }
+            else{
+                q += inp[i]
+            }
+        }
+        const e = document.getElementById(q)
+        if(e != null){
+            e.scrollIntoView({behavior: "smooth"})
+            e.children[1].style.maxHeight = "200px"
+        }
+    })
     return(input)
 }

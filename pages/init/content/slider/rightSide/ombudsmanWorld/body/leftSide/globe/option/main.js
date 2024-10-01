@@ -22,6 +22,7 @@ export default function option(t, top, left){
     option.onclick = function a(){
         const el = document.getElementById(t)
         el.scrollIntoView({behavior: "smooth"})
+        el.children[1].style.maxHeight = "200px"
     }
     return(option)
 }
