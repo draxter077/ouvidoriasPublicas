@@ -5,12 +5,10 @@ export default function menu(){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderLeftSideBodyMenu{
             width: 100%;
-            height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: flex-end;
-            border-radius: 15px;
             font-size: 15px;
         }`
 

@@ -13,9 +13,8 @@ export default function prior(){
         }
         .initContentSliderLeftSideBodyMenuPrior>div{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
-            align-items: center;
             width: 18%;
             text-align: center;
             padding: 10px 15px;
@@ -25,7 +24,6 @@ export default function prior(){
             transition: color var(--transitionTime), border var(--transitionTime);
             cursor: pointer;
             font-size: 21px;
-            margin: none;
             border: 2px solid var(--colorWhite);
         }
         .initContentSliderLeftSideBodyMenuPrior>div:hover{

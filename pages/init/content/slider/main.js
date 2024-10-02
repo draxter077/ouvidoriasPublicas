@@ -6,10 +6,8 @@ export default function slider(){
         .initContentSlider{
             width: 200%;
             height: 100%;
-            position: fixed;
             display: flex;
             flex-direction: row;
-            top: 0%;
             transition: translate var(--transitionTime);
         }`
 

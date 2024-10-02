@@ -10,9 +10,8 @@ export default function info(){
             width: 50%;
         }
         .initContentSliderLeftSideBodyMenuInfo>div{
-            width: fit-content;
+            width: 30%;
             font-size: 18px;
-            margin: none;
             color: var(--colorWhite);
             padding: 10px 15px;
             border-radius: 15px;
