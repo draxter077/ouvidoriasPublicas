@@ -13,6 +13,6 @@ export default function option(t){
     option.className = "initContentSliderRightSideOmbudsmanWorldBodyRightSideOption"
     option.appendChild(title(t))
     option.appendChild(detail())
-    option.id = t
+    option.id = t.toLowerCase()
     return(option)
 }

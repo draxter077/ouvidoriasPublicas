@@ -3,8 +3,8 @@ export default function option(t, top, left){
         .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>div{
             position: absolute;
             background: var(--colorBlack);
-            height: 7px;
-            width: 7px;
+            height: 5px;
+            width: 5px;
             border-radius: 10px;
             cursor: pointer;
             transition: height var(--transitionTime), width var(--transitionTime);
@@ -20,7 +20,7 @@ export default function option(t, top, left){
     option.style.left = left
 
     option.onclick = function a(){
-        const el = document.getElementById(t)
+        const el = document.getElementById(t.toLowerCase())
         el.scrollIntoView({behavior: "smooth"})
         el.children[1].style.maxHeight = "200px"
     }

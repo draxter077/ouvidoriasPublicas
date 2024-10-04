@@ -2,7 +2,7 @@ export default function img(){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initBackgroundSlider>img{
             height: 100%;
-            opacity: 0.5;
+            opacity: 0.7;
         }`
 
     const img = document.createElement("img")

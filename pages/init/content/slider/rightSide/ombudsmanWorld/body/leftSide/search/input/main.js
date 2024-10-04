@@ -15,16 +15,7 @@ export default function input(){
     input.placeholder = "Pesquise um país"
     input.addEventListener("input", function a(Event){
         const inp = Event.target.value
-        let q = ""
-        for(let i = 0; i < inp.length; i++){
-            if(i == 0){
-                q += inp[i].toUpperCase()
-            }
-            else{
-                q += inp[i]
-            }
-        }
-        const e = document.getElementById(q)
+        const e = document.getElementById(inp.toLowerCase())
         if(e != null){
             e.scrollIntoView({behavior: "smooth"})
             e.children[1].style.maxHeight = "200px"

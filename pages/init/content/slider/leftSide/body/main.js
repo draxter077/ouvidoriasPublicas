@@ -1,5 +1,3 @@
-import menu from "./menu/main.js"
-
 export default function body(){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderLeftSideBody{
@@ -13,6 +11,5 @@ export default function body(){
 
     const body = document.createElement("div")
     body.className = "initContentSliderLeftSideBody"
-    body.appendChild(menu())
     return(body)
 }

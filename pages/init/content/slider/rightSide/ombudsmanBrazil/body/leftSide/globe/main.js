@@ -17,6 +17,8 @@ export default function globe(){
         @media screen and (max-width: 1000px){
             .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideGlobe>img{
                 margin: 0px 0px 10px 0px;
+                width: 100%;
+                height: fit-content;
             }
         }`
 

@@ -10,7 +10,6 @@ export default function leftSide(){
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
         }`
 
     const leftSide = document.createElement("div")
