@@ -20,14 +20,6 @@
     from{width: 0%;}
 	to{width: 100%;}
 }
-@keyframes goAwayUp{
-	from{top: 0%};
-	to{top: 100%};
-}
-@keyframes goBackUp{
-	from{top: 100%};
-	to{top: 0%};
-}
 :root{
 	--colorWhite: rgb(255, 255, 255);
 	--colorBlack: rgb(0, 0, 0);
