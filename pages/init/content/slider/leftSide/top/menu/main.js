@@ -11,11 +11,11 @@ export default function menu(){
             
         .initContentSliderLeftSideTopMenu>button{
             font-size: 21px;
-            padding: 5px 10px;
+            padding: 5px 20px;
             margin: 0px 0px 0px 10px;
             background: var(--colorBlue);
             color: var(--colorWhite);
-            border-radius: 5px;
+            border-radius: 25px;
             height: fit-content;
             transition: background var(--transitionTime);
             cursor: pointer;
