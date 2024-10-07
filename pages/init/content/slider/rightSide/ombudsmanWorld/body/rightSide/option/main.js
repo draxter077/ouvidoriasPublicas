@@ -1,7 +1,7 @@
 import title from "./title/main.js"
 import detail from "./detail/main.js"
 
-export default function option(t){
+export default function option(t, i){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderRightSideOmbudsmanWorldBodyRightSideOption{
             display: flex;
@@ -12,7 +12,7 @@ export default function option(t){
     const option = document.createElement("div")
     option.className = "initContentSliderRightSideOmbudsmanWorldBodyRightSideOption"
     option.appendChild(title(t))
-    option.appendChild(detail())
+    option.appendChild(detail(i))
     option.id = t.toLowerCase()
     return(option)
 }

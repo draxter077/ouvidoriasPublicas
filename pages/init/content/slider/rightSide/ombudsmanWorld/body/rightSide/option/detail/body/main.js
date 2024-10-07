@@ -1,4 +1,6 @@
-export default function body(){
+import info from "./info/main.js"
+
+export default function body(i){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderRightSideOmbudsmanWorldBodyRightSideOptionDetail>div{
             border-radius: 0px 0px 15px 15px;
@@ -10,6 +12,10 @@ export default function body(){
         }`
 
     const body = document.createElement("div")
-    body.innerHTML = "DETALHE DETALHE DETALHE"
+
+    for(let j = 0; j < i.length; j++){
+        body.appendChild(info(i[j]))
+    }
+
     return(body)
 }

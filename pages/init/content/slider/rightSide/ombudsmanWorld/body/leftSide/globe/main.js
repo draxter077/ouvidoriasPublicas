@@ -36,7 +36,6 @@ export default function globe(){
         {t: "Barbados", top: "48%", left: "25.5%"},
         {t: "Bélgica", top: "25.7%", left: "45.6%"},
         {t: "Belize", top: "44.8%", left: "15.8%"},
-        {t: "Benim", top: "48.6%", left: "44.7%"},
         {t: "Bielorrússia", top: "23.9%", left: "52%"},
         {t: "Bolívia", top: "64.7%", left: "23.3%"},
         {t: "Bósnia e Herzegovina", top: "29.3%", left: "49.4%"},
