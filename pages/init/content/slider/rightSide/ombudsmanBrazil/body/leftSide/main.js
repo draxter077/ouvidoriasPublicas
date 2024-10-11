@@ -7,6 +7,7 @@ export default function leftSide(){
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            align-items: center;
             width: 50%;
             height: 90%;
         }  

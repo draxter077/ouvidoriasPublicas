@@ -1,15 +1,18 @@
-export default function option(t){
+import title from "./title/main.js"
+import detail from "./detail/main.js"
+
+export default function option(t, i){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderRightSideOmbudsmanBrazilBodyRightSideOption{
-            padding: 10px;
-            background: var(--colorBlue);
-            border-radius: 15px;
-            text-align: cente;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
             margin: 0px 0px 10px 0px;
-            color: var(--colorWhite);
         }`
     const option = document.createElement("div")
     option.className = "initContentSliderRightSideOmbudsmanBrazilBodyRightSideOption"
-    option.innerHTML = t
+    option.appendChild(title(t))
+    option.appendChild(detail(i))
+    option.id = t.toLowerCase()
     return(option)
 }

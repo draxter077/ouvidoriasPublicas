@@ -1,4 +1,5 @@
 import option from "./option/main.js"
+import countries from './countries/main.js'
 
 export default function rightSide(){
     document.getElementsByTagName("style")[0].innerHTML += `
@@ -17,9 +18,9 @@ export default function rightSide(){
 
     const rightSide = document.createElement("div")
     rightSide.className = "initContentSliderRightSideOmbudsmanBrazilBodyRightSide"
-    const cs = ["País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País", "País"]
+    const cs = countries.countries;
     for(let i = 0; i < cs.length; i++){
-        rightSide.appendChild(option(cs[i] + i))
+        rightSide.appendChild(option(cs[i].name, cs[i].info))
     }
     return(rightSide)
 }

@@ -5,11 +5,11 @@ export default function search(){
         .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch{
             width: 100%;
         }
-        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch>input{
-            width: 100%;
-            border-radius: 10px;
-            border: 1px solid var(--colorBlue);
-            padding: 10px 15px;
+            
+        @media screen and (max-width: 1000px){
+            .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch{
+                margin: 10px 0px 0px 0px;
+            }
         }`
 
     const search = document.createElement("div")
