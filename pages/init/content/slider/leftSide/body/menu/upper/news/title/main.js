@@ -22,7 +22,6 @@ export default function title(){
         let ths = Event.target
         let body = ths.parentElement.children[1]
         let bodyNowMH = body.style.maxHeight
-        console.log(bodyNowMH)
         if(bodyNowMH == "1000px"){
             body.style.maxHeight = "0px"
             ths.style.borderRadius = "15px"
