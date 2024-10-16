@@ -1,5 +1,4 @@
 import init from "./init/main.js"
-import forms from "./forms/main.js"
 
 export default async function construct(){
     const root = document.getElementById("root")
