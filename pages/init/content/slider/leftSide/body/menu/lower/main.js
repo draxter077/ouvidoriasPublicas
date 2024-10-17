@@ -17,10 +17,11 @@ export default function lower(){
         border-radius: 15px;
         font-size: 21px;
         cursor: pointer;
-        transition: box-shadow var(--transitionTime);
+        box-shadow: 0px 0px 5px 0px var(--colorBlack);
+        transition: background var(--transitionTime);
     }
     .initContentSliderLeftSideBodyMenuLower>div:hover{
-        box-shadow: 0px 0px 10px 0px var(--colorWhite);
+        background: var(--colorOrange);
     }
     
     @media screen and (max-width: 1000px){

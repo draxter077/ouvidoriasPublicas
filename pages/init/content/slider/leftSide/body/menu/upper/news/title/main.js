@@ -8,6 +8,7 @@ export default function title(){
             font-size: 27px;
             border: 4px solid var(--colorWhite);
             cursor: pointer;
+            box-shadow: 0px 0px 10px 0px var(--colorBlack);
             transition: border-radius var(--transitionTime), border-radius var(--transitionTime), border var(--transitionTime);
         }
         .initContentSliderLeftSideBodyMenuUpperNewsTitle:hover{

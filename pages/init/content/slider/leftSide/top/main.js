@@ -11,6 +11,7 @@ export default function top(){
             padding: 10px 15px;
             font-size: 40px;
             background: var(--colorWhite);
+            box-shadow: 0px 0px 5px 0px var(--colorBlack);
             color: var(--colorOrange);
             opacity: 0;
             width: 0%;
