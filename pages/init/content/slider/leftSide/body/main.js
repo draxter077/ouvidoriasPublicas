@@ -8,6 +8,7 @@ export default function body(){
             height: 100%;
             width: 100%;
             padding: 20px;
+            overflow: scroll;
         }`
 
     const body = document.createElement("div")
