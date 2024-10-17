@@ -7,6 +7,7 @@ export default function lower(){
         flex-direction: row;
         justify-content: space-between;
         width: 50%;
+        margin: 20px 0px 0px 0px;
     }
     .initContentSliderLeftSideBodyMenuLower>div{
         width: 30%;
@@ -28,6 +29,7 @@ export default function lower(){
         .initContentSliderLeftSideBodyMenuLower{
             flex-direction: column;
             width: 100%;
+            margin: 0px;
         }
         .initContentSliderLeftSideBodyMenuLower>div{
             width: 100%;

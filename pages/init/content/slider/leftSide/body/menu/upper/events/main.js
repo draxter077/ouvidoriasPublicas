@@ -1,9 +1,9 @@
 import title from "./title/main.js"
 import body from "./body/main.js"
 
-export default function news(){
+export default function events(){
     document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSideBodyMenuUpperNews{
+        .initContentSliderLeftSideBodyMenuUpperEvents{
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -12,15 +12,15 @@ export default function news(){
             margin: 0px 0px 10px 0px;
         }
         @media screen and (max-width: 1000px){
-            .initContentSliderLeftSideBodyMenuUpperNews{
+            .initContentSliderLeftSideBodyMenuUpperEvents{
                 width: 100%;
             }
         }
     `
 
-    const news = document.createElement("div")
-    news.className = "initContentSliderLeftSideBodyMenuUpperNews"
-    news.appendChild(title())
-    news.appendChild(body())
-    return(news)
+    const events = document.createElement("div")
+    events.className = "initContentSliderLeftSideBodyMenuUpperEvents"
+    events.appendChild(title())
+    events.appendChild(body())
+    return(events)
 }

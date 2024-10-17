@@ -1,5 +1,6 @@
-import option from "./option/main.js"
 import news from "./news/main.js"
+import posts from "./posts/main.js"
+import events from "./events/main.js"
 
 export default function upper(){
     document.getElementsByTagName("style")[0].innerHTML += `
@@ -24,7 +25,7 @@ export default function upper(){
     const upper = document.createElement("div")
     upper.className = "initContentSliderLeftSideBodyMenuUpper"
     upper.appendChild(news())
-    upper.appendChild(option("Postagens"))
-    upper.appendChild(option("Eventos"))
+    upper.appendChild(posts())
+    upper.appendChild(events())
     return(upper)
 }
