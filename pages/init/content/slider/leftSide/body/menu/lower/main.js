@@ -7,7 +7,8 @@ export default function lower(){
         flex-direction: row;
         justify-content: space-between;
         width: 50%;
-        margin: 20px 0px 0px 0px;
+        height: fit-content;
+        margin: 10px 0px 0px 0px;
     }
     .initContentSliderLeftSideBodyMenuLower>div{
         width: 30%;
