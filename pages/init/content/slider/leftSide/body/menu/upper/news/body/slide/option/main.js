@@ -13,5 +13,8 @@ export default function option(t){
 
     const option = document.createElement("div")
     option.innerHTML = t
+    option.onclick = function a(){
+        document.getElementsByClassName("initContent")[0].style.translate = "0% -50%"
+    }
     return(option)
 }

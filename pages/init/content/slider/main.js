@@ -5,7 +5,7 @@ export default function slider(){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSlider{
             width: 200%;
-            height: 100%;
+            height: 50%;
             display: flex;
             flex-direction: row;
             transition: translate var(--transitionTime);
