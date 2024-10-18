@@ -7,7 +7,7 @@ window.createElementToPage = function createElementToPage(t, s){
                             "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
             let name = ""
             while(true){
-                for(let k = 0; k < 10; k++){
+                for(let k = 0; k < 5; k++){
                     let n = Math.floor((chars.length)*Math.random())
                     name += chars[n]
                 }
@@ -29,8 +29,15 @@ window.createElementToPage = function createElementToPage(t, s){
                         .replaceAll("\n", "")
                         .replaceAll("  ", "")
                         .split("}")
+        let style = stl
+                        .replaceAll("\n", "")
+                        .replaceAll("  ", "")
+                        .replace("{", "")
+                        .replace("}", "")
+                        .split(";")
         let stylesNames = []
         let stylesNamesObject = []
+        let styleAtr = []
         for(let i = 0; i < styles.length; i++){
             let s = styles[i].split("{")
             let n = s[0]
@@ -50,9 +57,36 @@ window.createElementToPage = function createElementToPage(t, s){
                 stylesNamesObject.push([n, atrValues])
             }
         }
+        for(let j = 0; j < style.length; j++){
+            let s = style[j].split(": ")
+            if (s[0] != ""){
+                styleAtr.push([s[0], s[1]])
+            }
+        }
 
-        const className = randomName(stylesNames)
-        document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl}`
+        let className = "";
+        for(let k = 0; k < stylesNamesObject.length; k++){
+            let sN = stylesNamesObject[k]
+            let es = 0;
+            for(let l = 0; l < sN[1].length; l++){
+                let atrN = sN[1][l][0]
+                let atrA = sN[1][l][1]
+                for(let m = 0; m < styleAtr.length; m++){
+                    if(styleAtr[m][0] == atrN && styleAtr[m][1] == atrA){
+                        es += 1
+                        break
+                    }
+                }
+            }
+            if(es == styleAtr.length && es == sN[1].length){
+                className = sN[0].replace(".", "")
+                break
+            }
+        }
+        if(className == ""){
+            className = randomName(stylesNames)
+            document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl}`
+        }
         return(className)
     }
 

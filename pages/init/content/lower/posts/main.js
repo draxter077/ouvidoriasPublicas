@@ -1,4 +1,4 @@
-export default function news(){
+export default function posts(){
     const el = createElementToPage("div", `{
                                                 height: 100%;
                                                 background: var(--colorWhite);
