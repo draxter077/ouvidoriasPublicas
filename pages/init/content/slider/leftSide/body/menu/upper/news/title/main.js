@@ -2,6 +2,7 @@ export default function title(){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderLeftSideBodyMenuUpperNewsTitle{
             background: var(--colorWhite);
+            height: fit-content;
             padding: 15px;
             border-radius: 15px;
             text-align: center;
@@ -23,7 +24,7 @@ export default function title(){
         let ths = Event.target
         let body = ths.parentElement.children[1]
         let bodyNowMH = body.style.maxHeight
-        if(bodyNowMH == "500px"){
+        if(bodyNowMH == "1000px"){
             body.style.maxHeight = "0px"
             ths.style.borderRadius = "15px"
             ths.style.border = "4px solid var(--colorWhite)"
@@ -31,7 +32,7 @@ export default function title(){
         else{
             ths.style.borderRadius = "15px 15px 0px 0px"
             ths.style.border = "4px solid var(--colorOrange)"
-            body.style.maxHeight = "500px"
+            body.style.maxHeight = "1000px"
         }
     }
     return(title)

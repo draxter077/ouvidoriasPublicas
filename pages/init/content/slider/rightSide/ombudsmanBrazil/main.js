@@ -9,6 +9,7 @@ export default function ombudsmanBrazil(){
             background: var(--colorWhite);
             border-radius: 15px;
             padding: 10px 15px;
+            box-shadow: 0px 0px 5px 0px var(--colorBlack);
         }`
 
     const ombudsmanBrazil = document.createElement("div")

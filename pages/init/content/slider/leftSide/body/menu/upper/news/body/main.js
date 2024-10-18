@@ -1,4 +1,4 @@
-import option from "./option/main.js"
+import slide from "./slide/main.js"
 
 export default function body(){
     document.getElementsByTagName("style")[0].innerHTML += `
@@ -7,38 +7,13 @@ export default function body(){
             background: var(--colorWhite);
             border-radius: 0px 0px 15px 15px;
             max-height: 0px;
-            overflow: scroll;
+            overflow: hidden;
             transition: max-height var(--transitionTime), border-radius var(--transitionTime);
         }
     `
 
     const body = document.createElement("div")
     body.className = "initContentSliderLeftSideBodyMenuUpperNewsBody"
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
-    body.appendChild(option("Teste"))
+    body.appendChild(slide())
     return(body)
 }

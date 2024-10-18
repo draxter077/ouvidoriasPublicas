@@ -1,7 +1,7 @@
 export default function body(){
     document.getElementsByTagName("style")[0].innerHTML += `
         .initContentSliderLeftSideBodyMenuUpperEventsBody{
-            height: 300px;
+            height: 100%;
             background: var(--colorWhite);
             border-radius: 0px 0px 15px 15px;
             max-height: 0px;
