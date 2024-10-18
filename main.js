@@ -1,6 +1,6 @@
 import construct from "./pages/construct.js"
 
-window.createElementToPage = function createElementToPage(t, s){
+window.createElementToPage = function createElementToPage(n, t, s, mob){
     function addClass(stl){
         function randomName(names){
             const chars = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", 
@@ -63,29 +63,37 @@ window.createElementToPage = function createElementToPage(t, s){
                 styleAtr.push([s[0], s[1]])
             }
         }
-
-        let className = "";
-        for(let k = 0; k < stylesNamesObject.length; k++){
-            let sN = stylesNamesObject[k]
-            let es = 0;
-            for(let l = 0; l < sN[1].length; l++){
-                let atrN = sN[1][l][0]
-                let atrA = sN[1][l][1]
-                for(let m = 0; m < styleAtr.length; m++){
-                    if(styleAtr[m][0] == atrN && styleAtr[m][1] == atrA){
-                        es += 1
-                        break
+        
+        let className = ""
+        if(n == undefined){
+            for(let k = 0; k < stylesNamesObject.length; k++){
+                let sN = stylesNamesObject[k]
+                let es = 0;
+                for(let l = 0; l < sN[1].length; l++){
+                    let atrN = sN[1][l][0]
+                    let atrA = sN[1][l][1]
+                    for(let m = 0; m < styleAtr.length; m++){
+                        if(styleAtr[m][0] == atrN && styleAtr[m][1] == atrA){
+                            es += 1
+                            break
+                        }
                     }
+                }   
+                if(es == styleAtr.length && es == sN[1].length){
+                    className = sN[0].replace(".", "")
+                    break
                 }
             }
-            if(es == styleAtr.length && es == sN[1].length){
-                className = sN[0].replace(".", "")
-                break
-            }
+        }
+        else{
+            className = n
         }
         if(className == ""){
             className = randomName(stylesNames)
             document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl}`
+        }
+        if(mob != undefined){
+            document.getElementsByTagName("style")[0].innerHTML += `@media screen and (max-width: 1000px){.${className}${mob}}`
         }
         return(className)
     }
