@@ -1,9 +1,9 @@
-import slider from "./slider/main.js"
+import upper from "./upper/main.js"
 import lower from "./lower/main.js"
 
 export default function content(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContent{
+    let style = `
+        {
             display: flex;
             flex-direction: column;
             width: 100%;
@@ -15,9 +15,8 @@ export default function content(){
             animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
         }`
 
-    const content = document.createElement("div")
-    content.className = "initContent"
-    content.appendChild(slider())
+    const content = createElementToPage(undefined, "div", style)
+    content.appendChild(upper())
     content.appendChild(lower())
     return(content)
 }

@@ -1,9 +1,9 @@
 import upper from "./upper/main.js"
 import lower from "./lower/main.js"
 
-export default function menu(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSideBody>div{
+export default function menu(parentClass){
+    let style = `
+        {
             display: flex;
             flex-direction: column; 
             align-items: center;
@@ -11,7 +11,7 @@ export default function menu(){
             height: 100%;
         }`
 
-    const menu = document.createElement("div")
+    const menu = createElementToPage(parentClass+">div", "div", style)
     menu.appendChild(upper())
     menu.appendChild(lower())
     return(menu)

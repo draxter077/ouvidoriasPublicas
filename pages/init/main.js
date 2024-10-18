@@ -8,7 +8,7 @@ export default function init(){
             width: 100%;
         }`
 
-    const init = createElementToPage(undefined, "div", style, undefined)
+    const init = createElementToPage(undefined, "div", style)
     init.appendChild(background())
     init.appendChild(content())
     return(init)

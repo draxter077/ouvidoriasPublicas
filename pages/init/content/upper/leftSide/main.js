@@ -2,8 +2,8 @@ import top from "./top/main.js"
 import body from "./body/main.js"
 
 export default function leftSide(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSide{
+    let style = `
+        {
             width: 50%;
             height: 100%;
             display: flex;
@@ -12,8 +12,7 @@ export default function leftSide(){
             align-items: center;
         }`
 
-    const leftSide = document.createElement("div")
-    leftSide.className = "initContentSliderLeftSide"
+    const leftSide = createElementToPage(undefined, "div", style)
     leftSide.appendChild(top())
     leftSide.appendChild(body())
     return(leftSide)

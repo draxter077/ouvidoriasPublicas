@@ -2,8 +2,8 @@ import title from "./title/main.js"
 import body from "./body/main.js"
 
 export default function news(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSideBodyMenuUpperNews{
+    let style = `
+        {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -11,15 +11,12 @@ export default function news(){
             height: 100%;
             margin: 0px 0px 10px 0px;
         }
-        @media screen and (max-width: 1000px){
-            .initContentSliderLeftSideBodyMenuUpperNews{
-                width: 100%;
-            }
+        :responsive{
+            width: 100%;
         }
     `
 
-    const news = document.createElement("div")
-    news.className = "initContentSliderLeftSideBodyMenuUpperNews"
+    const news = createElementToPage(undefined, "div", style)
     news.appendChild(title())
     news.appendChild(body())
     return(news)

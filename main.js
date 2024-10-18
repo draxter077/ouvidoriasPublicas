@@ -1,7 +1,7 @@
 import construct from "./pages/construct.js"
 
-window.createElementToPage = function createElementToPage(n, t, s, mob){
-    function addClass(stl){
+window.createElementToPage = function createElementToPage(n, t, stl){
+    function addClass(){
         function randomName(names){
             const chars = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", 
                             "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -29,7 +29,10 @@ window.createElementToPage = function createElementToPage(n, t, s, mob){
                         .replaceAll("\n", "")
                         .replaceAll("  ", "")
                         .split("}")
-        let style = stl
+
+        let stylesGotten = stl.split("}")
+        stl = stylesGotten[0] + "}"
+        let style = stylesGotten[0]
                         .replaceAll("\n", "")
                         .replaceAll("  ", "")
                         .replace("{", "")
@@ -64,6 +67,7 @@ window.createElementToPage = function createElementToPage(n, t, s, mob){
             }
         }
         
+        const el = document.createElement(t)
         let className = ""
         if(n == undefined){
             for(let k = 0; k < stylesNamesObject.length; k++){
@@ -85,21 +89,27 @@ window.createElementToPage = function createElementToPage(n, t, s, mob){
                 }
             }
         }
-        else{
-            className = n
-        }
         if(className == ""){
             className = randomName(stylesNames)
-            document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl}`
+            document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl.replaceAll("\n", "").replaceAll("  ","")}`
         }
-        if(mob != undefined){
-            document.getElementsByTagName("style")[0].innerHTML += `@media screen and (max-width: 1000px){.${className}${mob}}`
+
+        for(let p = 1; p < stylesGotten.length; p++){
+            let inst = stylesGotten[p]
+            let insN = inst.split("{")[0].replaceAll("\n", "").replaceAll("  ", "")
+            let insA = inst.split("{")[1]
+            if(insN == ":hover"){
+                document.getElementsByTagName("style")[0].innerHTML += `.${className}:hover{${insA.replaceAll("\n", "").replaceAll("  ","")}}`
+            }
+            else if(insN == ":responsive"){
+                document.getElementsByTagName("style")[0].innerHTML += `@media screen and (max-width: 1000px){.${className}{${insA.replaceAll("\n", "").replaceAll("  ","")}}}`
+            }
         }
         return(className)
     }
 
     const el = document.createElement(t)
-    el.className = addClass(s)
+    el.className = addClass()
     return(el)
 }
 

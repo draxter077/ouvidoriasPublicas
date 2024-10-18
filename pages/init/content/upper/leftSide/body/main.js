@@ -1,8 +1,8 @@
 import menu from "./menu/main.js"
 
 export default function body(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSideBody{
+    let style = `
+        {
             display: flex;
             flex-direction: column;
             height: 100%;
@@ -11,8 +11,7 @@ export default function body(){
             overflow: scroll;
         }`
 
-    const body = document.createElement("div")
-    body.className = "initContentSliderLeftSideBody"
-    body.appendChild(menu())
+    const body = createElementToPage(undefined, "div", style)
+    body.appendChild(menu(body.className))
     return(body)
 }

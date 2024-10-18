@@ -1,8 +1,7 @@
 import slide from "./slide/main.js"
 
 export default function body(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSideBodyMenuUpperNewsBody{
+    let style = `{
             height: 300px;
             background: var(--colorWhite);
             border-radius: 0px 0px 15px 15px;
@@ -12,8 +11,7 @@ export default function body(){
         }
     `
 
-    const body = document.createElement("div")
-    body.className = "initContentSliderLeftSideBodyMenuUpperNewsBody"
+    const body = createElementToPage(undefined, "div", style)
     body.appendChild(slide())
     return(body)
 }

@@ -1,6 +1,6 @@
 export default function title(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSideBodyMenuUpperNewsTitle{
+    let style = `
+        {
             background: var(--colorWhite);
             height: fit-content;
             padding: 15px;
@@ -12,13 +12,12 @@ export default function title(){
             box-shadow: 0px 0px 10px 0px var(--colorBlack);
             transition: border-radius var(--transitionTime), border-radius var(--transitionTime), border var(--transitionTime);
         }
-        .initContentSliderLeftSideBodyMenuUpperNewsTitle:hover{
-            border: 4px solid var(--colorOrange) !important;
+        :hover{
+                border: 4px solid var(--colorOrange) !important;
         }
     `
 
-    const title = document.createElement("div")
-    title.className = "initContentSliderLeftSideBodyMenuUpperNewsTitle"
+    const title = createElementToPage(undefined, "div", style, undefined)
     title.innerHTML = "Notícias"
     title.onclick = function a(Event){
         let ths = Event.target
