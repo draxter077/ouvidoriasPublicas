@@ -9,7 +9,7 @@ export default function slider(){
             height: 100%;
         }`
 
-    const slider = createElementToPage(undefined, "div", style, undefined)
+    const slider = createElementToPage(undefined, "div", style)
     slider.appendChild(img(slider.className))
     return(slider)
 }

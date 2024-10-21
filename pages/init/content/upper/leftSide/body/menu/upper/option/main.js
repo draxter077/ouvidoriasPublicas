@@ -1,7 +1,7 @@
 import title from "./title/main.js"
 import body from "./body/main.js"
 
-export default function news(){
+export default function option(t){
     let style = `
         {
             display: flex;
@@ -16,8 +16,8 @@ export default function news(){
         }
     `
 
-    const news = createElementToPage(undefined, "div", style)
-    news.appendChild(title())
-    news.appendChild(body())
-    return(news)
+    const option = createElementToPage(undefined, "div", style)
+    option.appendChild(title(t))
+    option.appendChild(body())
+    return(option)
 }

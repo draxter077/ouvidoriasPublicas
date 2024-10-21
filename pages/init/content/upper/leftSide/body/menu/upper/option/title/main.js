@@ -1,4 +1,4 @@
-export default function title(){
+export default function title(t){
     let style = `
         {
             background: var(--colorWhite);
@@ -18,7 +18,7 @@ export default function title(){
     `
 
     const title = createElementToPage(undefined, "div", style, undefined)
-    title.innerHTML = "Notícias"
+    title.innerHTML = t
     title.onclick = function a(Event){
         let ths = Event.target
         let body = ths.parentElement.children[1]

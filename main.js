@@ -92,17 +92,16 @@ window.createElementToPage = function createElementToPage(n, t, stl){
         if(className == ""){
             className = randomName(stylesNames)
             document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl.replaceAll("\n", "").replaceAll("  ","")}`
-        }
-
-        for(let p = 1; p < stylesGotten.length; p++){
-            let inst = stylesGotten[p]
-            let insN = inst.split("{")[0].replaceAll("\n", "").replaceAll("  ", "")
-            let insA = inst.split("{")[1]
-            if(insN == ":hover"){
-                document.getElementsByTagName("style")[0].innerHTML += `.${className}:hover{${insA.replaceAll("\n", "").replaceAll("  ","")}}`
-            }
-            else if(insN == ":responsive"){
-                document.getElementsByTagName("style")[0].innerHTML += `@media screen and (max-width: 1000px){.${className}{${insA.replaceAll("\n", "").replaceAll("  ","")}}}`
+            for(let p = 1; p < stylesGotten.length; p++){
+                let inst = stylesGotten[p]
+                let insN = inst.split("{")[0].replaceAll("\n", "").replaceAll("  ", "")
+                let insA = inst.split("{")[1]
+                if(insN == ":hover"){
+                    document.getElementsByTagName("style")[0].innerHTML += `.${className}:hover{${insA.replaceAll("\n", "").replaceAll("  ","")}}`
+                }
+                else if(insN == ":responsive"){
+                    document.getElementsByTagName("style")[0].innerHTML += `@media screen and (max-width: 1000px){.${className}{${insA.replaceAll("\n", "").replaceAll("  ","")}}}`
+                }
             }
         }
         return(className)

@@ -1,6 +1,4 @@
-import news from "./news/main.js"
-import posts from "./posts/main.js"
-import events from "./events/main.js"
+import option from "./option/main.js"
 
 export default function upper(){
     let style = `
@@ -21,8 +19,8 @@ export default function upper(){
     `
 
     const upper = createElementToPage(undefined, "div", style)
-    upper.appendChild(news())
-    upper.appendChild(posts())
-    upper.appendChild(events())
+    upper.appendChild(option("Notícias"))
+    upper.appendChild(option("Publicações"))
+    upper.appendChild(option("Eventos"))
     return(upper)
 }

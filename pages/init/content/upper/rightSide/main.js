@@ -1,13 +1,12 @@
 export default function rightSide(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSide{
+    let style = `
+        {
             width: 50%;
             height: 100%;
             padding: 20px;
         }`
 
-    const rightSide = document.createElement("div")
-    rightSide.className = "initContentSliderRightSide"
+    const rightSide = createElementToPage(undefined, "div", style)
     rightSide.id = "rightSide"
     return(rightSide)
 }

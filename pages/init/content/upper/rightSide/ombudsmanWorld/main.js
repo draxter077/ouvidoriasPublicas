@@ -2,8 +2,8 @@ import top from "./top/main.js"
 import body from "./body/main.js"
 
 export default function ombudsmanWorld(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanWorld{
+    let style = `
+        {
             width: 100%;
             height: 100%;
             background: var(--colorWhite);
@@ -12,8 +12,7 @@ export default function ombudsmanWorld(){
             box-shadow: 0px 0px 5px 0px var(--colorBlack);
         }`
 
-    const ombudsmanWorld = document.createElement("div")
-    ombudsmanWorld.className = "initContentSliderRightSideOmbudsmanWorld"
+    const ombudsmanWorld = createElementToPage(undefined, "div", style)
     ombudsmanWorld.appendChild(top())
     ombudsmanWorld.appendChild(body())
     return(ombudsmanWorld)

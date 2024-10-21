@@ -10,7 +10,7 @@ export default function background(){
             animation: fadeIn var(--transitionTime) var(--animationDelay0) forwards;
         }`
 
-    const background = createElementToPage(undefined, "div", style, undefined)
+    const background = createElementToPage(undefined, "div", style)
     background.appendChild(slider())
     return(background)
 }

@@ -16,6 +16,7 @@ export default function content(){
         }`
 
     const content = createElementToPage(undefined, "div", style)
+    content.id = "initContent"
     content.appendChild(upper())
     content.appendChild(lower())
     return(content)

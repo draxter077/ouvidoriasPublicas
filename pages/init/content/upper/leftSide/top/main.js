@@ -2,8 +2,8 @@ import title from "./title/main.js"
 import menu from "./menu/main.js"
 
 export default function top(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderLeftSideTop{
+    let style = `
+        {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -17,18 +17,14 @@ export default function top(){
             width: 0%;
             animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards, widther var(--transitionTime) var(--animationDelay1) forwards;
         }
-            
-        @media screen and (max-width: 1000px){
-            .initContentSliderLeftSideTop{
-                flex-direction: column;
-                width: 100%;
-                opacity: 0;
-                animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
-            }
+        :responsive{
+            flex-direction: column;
+            width: 100%;
+            opacity: 0;
+            animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
         }`
 
-    const top = document.createElement("div")
-    top.className = "initContentSliderLeftSideTop"
+    const top = createElementToPage(undefined, "div", style)
     top.appendChild(title())
     top.appendChild(menu())
     return(top)

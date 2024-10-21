@@ -1,11 +1,11 @@
 export default function title(t){
-    document.getElementsByTagName("style")[0].innerHTML += `
-    .initContentSliderRightSideOmbudsmanBrazilBodyRightSideOptionDetailBodyInfo>div:nth-child(1){
-        color: var(--colorBlue);
-        font-weight: 900;
-    }`
+    let style = `
+        {
+            color: var(--colorBlue);
+            font-weight: 900;
+        }`
 
-    const title = document.createElement("div")
+    const title = createElementToPage(undefined, "div", style)
     title.innerHTML = t
     return(title)
 }

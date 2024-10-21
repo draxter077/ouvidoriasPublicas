@@ -2,8 +2,8 @@ import img from "./img/main.js"
 import option from "./option/main.js"
 
 export default function globe(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideGlobe{
+    let style = `
+        {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -12,8 +12,7 @@ export default function globe(){
             position: relative;
         }`
 
-    const globe = document.createElement("div")
-    globe.className = "initContentSliderRightSideOmbudsmanBrazilBodyLeftSideGlobe"
+    const globe = createElementToPage(undefined, "div", style)
     globe.appendChild(img())
 
     const c = [{t: "Rede de ouvidoria de Alagoas", top: "41%", left: "92%"},

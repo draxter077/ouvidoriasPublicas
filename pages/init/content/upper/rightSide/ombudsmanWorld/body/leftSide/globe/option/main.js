@@ -1,6 +1,6 @@
 export default function option(t, top, left){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>div{
+    let style = `
+        {
             position: absolute;
             background: var(--colorBlack);
             height: 5px;
@@ -9,12 +9,12 @@ export default function option(t, top, left){
             cursor: pointer;
             transition: height var(--transitionTime), width var(--transitionTime);
         }
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>div:hover{
+        :hover{
             height: 15px;
             width: 15px;
         }`
 
-    const option = document.createElement("div")
+    const option = createElementToPage(undefined, "div", style)
     option.title = t
     option.style.top = top
     option.style.left = left

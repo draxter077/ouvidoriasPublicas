@@ -5,7 +5,7 @@ export default function img(parentClass){
             opacity: 0.7;
         }`
 
-    const img = createElementToPage(parentClass+">img", "img", style, undefined)
+    const img = createElementToPage(parentClass+">img", "img", style)
     img.src = "https://draxter077.github.io/ouvidoriasPublicas/stockholmPalace.jpg"
     return(img)
 }

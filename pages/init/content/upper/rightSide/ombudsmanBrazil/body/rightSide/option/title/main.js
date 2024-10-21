@@ -1,6 +1,6 @@
 export default function title(t){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanBrazilBodyRightSideOptionTitle{
+    let style = `
+        {
             background: var(--colorBlue);
             border-radius: 15px;
             padding: 15px 20px;
@@ -8,14 +8,12 @@ export default function title(t){
             font-weight: 900;
             transition: box-shadow var(--transitionTime);
             cursor: pointer;
-        }
-            
-        .initContentSliderRightSideOmbudsmanBrazilBodyRightSideOptionTitle:hover{
+        }    
+        :hover{
             box-shadow: 0px 0px 10px 3px var(--colorOrange);
         }`
 
-    const title = document.createElement("div")
-    title.className = "initContentSliderRightSideOmbudsmanBrazilBodyRightSideOptionTitle"
+    const title = createElementToPage(undefined, "div", style)
     title.innerHTML = t
 
     title.onclick = function a(Event){

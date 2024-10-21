@@ -1,10 +1,10 @@
 export default function data(d){
-    document.getElementsByTagName("style")[0].innerHTML += `
-    .initContentSliderRightSideOmbudsmanWorldBodyRightSideOptionDetailBodyInfo>div:nth-child(2){
+    let style = `
+    {
         color: var(--colorBlack);
     }`
 
-    const data = document.createElement("div")
+    const data = createElementToPage(undefined, "div", style)
     data.innerHTML = d
     return(data)
 }

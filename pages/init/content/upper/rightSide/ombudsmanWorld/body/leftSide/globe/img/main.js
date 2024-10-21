@@ -1,11 +1,11 @@
 export default function img(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanWorldBodyLeftSideGlobe>img{
+    let style = `
+        {
             width: 100%;
             border-radius: 50%;
         }`
 
-    const img = document.createElement("img")
+    const img = createElementToPage(undefined, "img", style)
     img.src = "https://draxter077.github.io/ouvidoriasPublicas/globe.jpg"
     return(img)
 }

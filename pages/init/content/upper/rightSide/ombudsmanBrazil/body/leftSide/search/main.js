@@ -1,19 +1,15 @@
 import input from "./input/main.js"
 
 export default function search(){
-    document.getElementsByTagName("style")[0].innerHTML += `
-        .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch{
+    let style = `
+        {
             width: 100%;
         }
-            
-        @media screen and (max-width: 1000px){
-            .initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch{
-                margin: 10px 0px 0px 0px;
-            }
+        :responsive{
+            margin: 10px 0px 0px 0px;
         }`
 
-    const search = document.createElement("div")
-    search.className = "initContentSliderRightSideOmbudsmanBrazilBodyLeftSideSearch"
+    const search = createElementToPage(undefined, "div", style)
     search.appendChild(input())
     return(search)
 }
