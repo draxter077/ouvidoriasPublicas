@@ -11,6 +11,7 @@ export default function content(){
             position: fixed;
             top: 0%;
             opacity: 0;
+            translate: 0% -50%;
             transition: translate var(--transitionTime);
             animation: fadeIn var(--transitionTime) var(--animationDelay1) forwards;
         }`

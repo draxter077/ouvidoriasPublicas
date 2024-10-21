@@ -1,4 +1,4 @@
-import news from "./news/main.js"
+import option from "./option/main.js"
 
 export default function lower(){
     let style = `
@@ -10,9 +10,6 @@ export default function lower(){
     `
 
     const lower = createElementToPage(undefined, "div", style)
-    lower.onclick = function a(){
-        document.getElementById("initContent").style.translate = "0% 0%"
-    }
-    lower.appendChild(news())
+    lower.appendChild(option())
     return(lower)
 }
