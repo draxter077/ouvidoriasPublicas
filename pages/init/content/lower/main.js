@@ -11,7 +11,7 @@ export default function lower(){
 
     const lower = createElementToPage(undefined, "div", style)
     lower.onclick = function a(){
-        document.getElementsByClassName("initContent")[0].style.translate = "0% 0%"
+        document.getElementById("initContent").style.translate = "0% 0%"
     }
     lower.appendChild(news())
     return(lower)
