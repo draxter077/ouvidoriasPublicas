@@ -1,4 +1,5 @@
 import info from "./info/main.js"
+import text from "./text/main.js"
 
 export default function body(){
     let style = `
@@ -11,5 +12,6 @@ export default function body(){
 
     const body = createElementToPage(undefined, "div", style)
     body.appendChild(info())
+    body.appendChild(text())
     return(body)
 }
