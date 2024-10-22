@@ -8,7 +8,7 @@ export default function body(){
             height: 100%;
             width: 100%;
             padding: 20px;
-            overflow: scroll;
+            overflow-y: scroll;
         }`
 
     const body = createElementToPage(undefined, "div", style)

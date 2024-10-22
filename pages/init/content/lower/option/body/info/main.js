@@ -1,5 +1,4 @@
 import title from "./title/main.js"
-import img from "./img/main.js"
 import time from "./time/main.js"
 
 export default function info(){
@@ -13,7 +12,6 @@ export default function info(){
     
     const info = createElementToPage(undefined, "div", style)
     info.appendChild(title())
-    info.appendChild(img())
     info.appendChild(time())
     return(info)
 }
