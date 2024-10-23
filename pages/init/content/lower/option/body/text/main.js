@@ -4,6 +4,7 @@ export default function text(){
             width: 100%;
             text-align: justify;
             margin: 10px 0px 0px 0px;
+            color: var(--colorBlack);
         }
         >p{
             line-height: 1.3;

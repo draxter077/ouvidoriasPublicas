@@ -4,6 +4,7 @@ export default function img(src){
             height: 200px;
             margin: 10px;
             border-radius: 15px;
+            box-shadow: 0px 0px 2px 0px var(--colorBlack);
         }
         :responsive{
             width: 100%;
