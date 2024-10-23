@@ -8,7 +8,7 @@ export default function option(src, t){
             flex-direction: row;
             align-items: center;
             width: 100%;
-            border-bottom: 1px solid var(--colorBlack);
+            border-top: 1px solid var(--colorBlack);
             padding: 10px;
             cursor: pointer;
             transition: color var(--transitionTime);

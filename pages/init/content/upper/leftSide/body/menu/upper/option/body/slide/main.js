@@ -5,7 +5,7 @@ export default function slide(parentClass){
         {
             height: 100%;
             width: 100%;
-            padding: 10px;
+            padding: 0px 10px;
             overflow: scroll;
         }
     `

@@ -13,7 +13,7 @@ export default function title(t){
             transition: border-radius var(--transitionTime), border-radius var(--transitionTime), border var(--transitionTime);
         }
         :hover{
-                border: 4px solid var(--colorOrange) !important;
+                border: 4px solid var(--colorOrange);
         }
     `
 
@@ -26,11 +26,9 @@ export default function title(t){
         if(bodyNowMH == "1000px"){
             body.style.maxHeight = "0px"
             ths.style.borderRadius = "15px"
-            ths.style.border = "4px solid var(--colorWhite)"
         }
         else{
             ths.style.borderRadius = "15px 15px 0px 0px"
-            ths.style.border = "4px solid var(--colorOrange)"
             body.style.maxHeight = "1000px"
         }
     }
