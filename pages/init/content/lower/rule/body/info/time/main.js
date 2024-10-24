@@ -1,4 +1,4 @@
-export default function time(){
+export default function time(t){
     let style = `
         {
             width: 100%;
@@ -9,6 +9,6 @@ export default function time(){
         }`
 
     const time = createElementToPage(undefined, "div", style)
-    time.innerHTML = "10/08/2024 às 10h00"
+    time.innerHTML = t
     return(time)
 }

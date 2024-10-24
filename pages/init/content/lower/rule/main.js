@@ -1,7 +1,7 @@
 import top from "./top/main.js"
 import body from "./body/main.js"
 
-export default function option(){
+export default function rule(ob){
     let style = `
         {
             display: flex;
@@ -14,8 +14,8 @@ export default function option(){
             box-shadow: 0px 0px 5px 0px var(--colorBlack);
         }`
 
-    const option = createElementToPage(undefined, "div", style)
-    option.appendChild(top())
-    option.appendChild(body())
-    return(option)
+    const rule = createElementToPage(undefined, "div", style)
+    rule.appendChild(top())
+    rule.appendChild(body(ob))
+    return(rule)
 }

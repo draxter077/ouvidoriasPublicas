@@ -1,4 +1,6 @@
-export default function option(t, parentClass){
+import rule from "../../../../../../lower/rule/main.js"
+
+export default function option(t, parentClass, ob){
     let style = `
         {
             width: 30%;
@@ -22,5 +24,10 @@ export default function option(t, parentClass){
     }`
     const option = createElementToPage(parentClass+">div", "div", style)
     option.innerHTML = t
+    option.onclick = function a(){
+        document.getElementById("lowerPage").innerHTML = ""
+        document.getElementById("lowerPage").appendChild(rule(ob))
+        document.getElementById("initContent").style.translate = "0% -50%"
+    }
     return(option)
 }

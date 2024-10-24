@@ -17,8 +17,10 @@ export default function lower(){
         }`
 
     const lower = createElementToPage(undefined, "div", style)
-    lower.appendChild(option("Sobre nós", lower.className))
-    lower.appendChild(option("Links", lower.className))
-    lower.appendChild(option("Bibliografias", lower.className))
+
+    const ob = {info: {title: "TESTE", time: "Conteúdo do site atualizado às 00/00/2022 às 10h41"}, text: "a gente kkkk", imgs: []}
+    lower.appendChild(option("Sobre nós", lower.className, ob))
+    lower.appendChild(option("Links", lower.className, ob))
+    lower.appendChild(option("Bibliografias", lower.className, ob))
     return(lower)
 }

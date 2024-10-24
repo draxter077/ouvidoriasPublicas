@@ -1,4 +1,4 @@
-export default function title(){
+export default function title(t){
     let style = `
         {
             width: 100%;
@@ -9,6 +9,6 @@ export default function title(){
         }`
 
     const title = createElementToPage(undefined, "div", style)
-    title.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    title.innerHTML = t
     return(title)
 }

@@ -1,7 +1,7 @@
 import title from "./title/main.js"
 import time from "./time/main.js"
 
-export default function info(){
+export default function info(ob){
     let style = `
         {
             width: 100%;
@@ -11,7 +11,7 @@ export default function info(){
         }`
     
     const info = createElementToPage(undefined, "div", style)
-    info.appendChild(title())
-    info.appendChild(time())
+    info.appendChild(title(ob.title))
+    info.appendChild(time(ob.time))
     return(info)
 }

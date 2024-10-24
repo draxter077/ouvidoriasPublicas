@@ -2,7 +2,7 @@ import info from "./info/main.js"
 import text from "./text/main.js"
 import imgs from "./imgs/main.js"
 
-export default function body(){
+export default function body(ob){
     let style = `
         {
             width: 100%;
@@ -12,8 +12,8 @@ export default function body(){
         }`
 
     const body = createElementToPage(undefined, "div", style)
-    body.appendChild(info())
-    body.appendChild(text())
-    body.appendChild(imgs())
+    body.appendChild(info(ob.info))
+    body.appendChild(text(ob.text))
+    body.appendChild(imgs(ob.imgs))
     return(body)
 }
