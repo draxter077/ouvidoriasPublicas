@@ -1,6 +1,6 @@
 import slide from "./slide/main.js"
 
-export default function body(){
+export default function body(ob){
     let style = `{
             height: 300px;
             background: var(--colorWhite);
@@ -8,10 +8,9 @@ export default function body(){
             max-height: 0px;
             overflow: hidden;
             transition: max-height var(--transitionTime), border-radius var(--transitionTime);
-        }
-    `
+        }`
 
     const body = createElementToPage(undefined, "div", style)
-    body.appendChild(slide(body.className))
+    body.appendChild(slide(body.className, ob))
     return(body)
 }

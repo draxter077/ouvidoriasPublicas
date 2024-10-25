@@ -1,4 +1,7 @@
 import option from "./option/main.js"
+import news from "./news.js"
+import pubs from "./pubs.js"
+import events from "./events.js"
 
 export default function upper(){
     let style = `
@@ -15,12 +18,11 @@ export default function upper(){
             align-items: center;
             justify-content: flex-start;
             height: fit-content;
-        }
-    `
+        }`
 
     const upper = createElementToPage(undefined, "div", style)
-    upper.appendChild(option("Notícias"))
-    upper.appendChild(option("Publicações"))
-    upper.appendChild(option("Eventos"))
+    upper.appendChild(option("Notícias", news))
+    upper.appendChild(option("Publicações", pubs))
+    upper.appendChild(option("Eventos", events))
     return(upper)
 }

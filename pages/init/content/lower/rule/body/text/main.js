@@ -10,6 +10,15 @@ export default function text(t){
             line-height: 1.3;
             text-indent: 30px;
             margin: 0px 0px 5px 0px;
+        }
+        >a{
+            line-height: 1.3;
+            color: var(--colorBlue);
+            font-style: none;
+            transition: color var(--transitionTime);
+        }
+        >a:hover{
+            color: var(--colorOrange);
         }`
     
     const text = createElementToPage(undefined, "div", style)

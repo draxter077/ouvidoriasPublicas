@@ -1,7 +1,7 @@
 import title from "./title/main.js"
 import body from "./body/main.js"
 
-export default function option(t){
+export default function option(t, ob){
     let style = `
         {
             display: flex;
@@ -18,6 +18,6 @@ export default function option(t){
 
     const option = createElementToPage(undefined, "div", style)
     option.appendChild(title(t))
-    option.appendChild(body())
+    option.appendChild(body(ob))
     return(option)
 }
