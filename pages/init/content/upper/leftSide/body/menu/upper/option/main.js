@@ -7,7 +7,7 @@ export default function option(t, ob){
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            width: 25%;
+            width: 30%;
             height: 100%;
             margin: 0px 0px 10px 0px;
         }

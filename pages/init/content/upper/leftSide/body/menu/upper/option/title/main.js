@@ -3,10 +3,10 @@ export default function title(t){
         {
             background: var(--colorWhite);
             height: fit-content;
-            padding: 15px;
+            padding: 10px;
             border-radius: 15px;
             text-align: center;
-            font-size: 27px;
+            font-size: 25px;
             border: 4px solid var(--colorWhite);
             cursor: pointer;
             box-shadow: 0px 0px 10px 0px var(--colorBlack);

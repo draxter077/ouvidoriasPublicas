@@ -6,7 +6,7 @@ import events from "./events.js"
 export default function upper(){
     let style = `
         {
-            width: 100%;
+            width: 80%;
             height: 100%;
             display: flex;
             flex-direction: row;
