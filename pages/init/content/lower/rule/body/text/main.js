@@ -5,6 +5,7 @@ export default function text(t){
             text-align: justify;
             margin: 10px 0px 0px 0px;
             color: var(--colorBlack);
+            font-size: 15px;
         }
         >p{
             line-height: 1.3;

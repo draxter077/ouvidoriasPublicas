@@ -3,7 +3,7 @@ import rule from "../../../../../../lower/rule/main.js"
 export default function option(t, parentClass, ob){
     let style = `
         {
-            width: 20%;
+            width: 22%;
             text-align: center;
             background: var(--colorBlue);
             color: var(--colorWhite);

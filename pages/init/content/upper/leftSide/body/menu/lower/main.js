@@ -6,7 +6,7 @@ export default function lower(){
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            width: 80%;
+            width: 70%;
             height: fit-content;
             margin: 10px 0px 0px 0px;
         }
