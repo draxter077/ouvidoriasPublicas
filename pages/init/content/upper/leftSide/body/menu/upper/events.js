@@ -1,22 +1,16 @@
 export default
 [
     {
-        img: "https://www.ibe.edu.br/wp-content/uploads/2018/11/255772-8-tecnicas-para-se-destacar-em-uma-reuniao-de-negocios.jpg",
-        title: "Evento ILO 2024",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPuMrBBvbtZZ7m3kRrnqwyH2wGTbqBI3SdrA&s",
+        title: "XV Assembleia e Seminário do Instituto Latinoamericano de Ombudsman - ILO",
         content: {
             info: {
-                title: "Ipsum Literis", 
-                time: "21/10/2024 às 10h42"
+                title: "XV Assembleia e Seminário do Instituto Latinoamericano de Ombudsman - ILO", 
+                time: ""
             },
-            text: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                    irure dolor in reprehenderit in voluptate velit esse cillum 
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                    anim id est laborum.
-                </p>`,
+            text: `<p>Realizada nos dias 4, 5 e 6 de Dezembro de 2024, em Foz do Iguaçu, 
+                    a XV Assembleia e Seminário do Instituto Latinoamericano de Ombudsman - ILO contou com a participação
+                    de vários pesquisadores e ouvidores.</p>`,
             imgs: ["https://www.gov.br/ouvidorias/pt-br/assuntos/noticias/2019/07/controladoria-marca-presenca-na-x-asamblea-general-del-instituto-latinoamericano-de-ombudsman-ilo/img-20190718-wa0031.jpg", 
                 "https://turkmenportal.com/images/uploads/blogs/webp/150886ee4c21d7dca3cf2702e5f688b2.webp",
                 "https://www.theioi.org/images/9h60o/lblarge/Singning-of-MoU-between-ILO-and-IOI-Oct-2014.png?v=1630447473",

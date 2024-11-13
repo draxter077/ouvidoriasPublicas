@@ -23,13 +23,13 @@ export default function title(t){
         let ths = Event.target
         let body = ths.parentElement.children[1]
         let bodyNowMH = body.style.maxHeight
-        if(bodyNowMH == "1000px"){
+        if(bodyNowMH == "100dvh"){
             body.style.maxHeight = "0px"
             ths.style.borderRadius = "15px"
         }
         else{
             ths.style.borderRadius = "15px 15px 0px 0px"
-            body.style.maxHeight = "1000px"
+            body.style.maxHeight = "100dvh"
         }
     }
     return(title)

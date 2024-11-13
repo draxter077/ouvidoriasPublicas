@@ -1,25 +1,15 @@
 export default
 [
     {
-        img: undefined,
+        img: "./manoelEduardoAlvesCamargoEGomes.jpg",
         title: "O Regime Jurídico das Ouvidorias Públicas Brasileiras: Causalidade de Sentido e Adequação Estruturo-Funcional",
         content: {
             info: {
                 title: "O  Regime Jurídico das Ouvidorias Públicas Brasileiras: Causalidade de Sentido e Adequação Estruturo-Funcional", 
                 time: "Agosto de 2000, tese de doutorado de Manoel Eduardo Alves Camargo e Gomes"
             },
-            text: `<p>Introdução</p>
-                    <p>Em 1987, quando do meu primeiro encontro com o orientador desta tese, Prof. Dr. Paulo Henrique Blasi, então coordenador do Curso de Pós-Graduação em Direito desta Universidade, trazia à mão o projeto de instalação da Ouvidoria Municipal de Curitiba, criada no ano anterior. Com a sensibilidade que tem caracterizado sua vida profissional e acadêmica, como advogado e pesquisador, o Professor Blasi dedicou ao tema grande atenção, asseverando o interesse de orientar uma investigação sobre o tema, então nascente na doutrina brasileira.</p>
-                    <p>Sob o impacto da rejeição do instituto pela Constituição Federal de 1988 – cuja proposta havia sido formulada pela Comissão Provisória de Estudos Constitucionais, presidida pelo Prof. Afonso Arinos – deixei de acreditar na plausibilidade de o Brasil recepcionar a experiência sueca e, portanto, na relevância prática de uma pesquisa sobre o tema.</p>
-                    <p>Mais de uma década depois, com o instituto do ombudsman contemplado em cerca de noventa países, as Ouvidorias Públicas reafirmaram-se no cenário institucional brasileiro, ocupando centenas de órgãos e entidades da Administração Direta e Indireta, resgatando, desse modo, o interesse e a importância de estudos sobre o tema.</p>
-                    <p>Ao longo desse período, jamais olvidei a responsabilidade por ter contribuído para a implantação da primeira experiência brasileira, inquietando-me constantemente a análise de sua conveniência e oportunidade em face da democracia brasileira.</p>
-                    <p>Motivado por tal preocupação e pela ausência de estudos doutrinários no país, optei pela investigação desse tema, levada a efeito no âmbito de uma cartografia metodológica que não logrou divisar as várias tonalidades do arco-íris de saber que nos faz homens, cidadãos e cientistas: de um lugar em que existência, experiência e ciência entrelaçam-se para tornar quiméricas tanto a pretensão de verdade quanto a obtenção de certezas científico-substantivas.</p>
-                    <p>Resumo</p>
-                    <p>Esta tese tem como objeto o regime jurídico das Ouvidorias Públicas brasileiras. O principal objetivo que a informa é a formulação de alguns parâmetros de inteligibilidade do funcionamento e organização deste instituto, adequados à racionalidade presente no Estado e no Direito, visando a compreensão do sentido deste instituto em relação à democracia brasileira. A questão central pode ser colocada nos seguintes termos: as Ouvidorias Públicas brasileiras, na condição de agentes de controle estatal, atuariam sobre a tensão entre a racionalidade sistêmica e a assistêmica e, assim, sobre a conformação da própria democracia? A hipótese central da tese é que há plausibilidade estruturo-funcional para que as Ouvidorias Públicas se constituam em um instrumento de controle extraorgânico e dialógico da formulação e execução das políticas públicas e, dessa maneira, como um canal de inserção de uma racionalidade assistêmica no interior da estrutura administrativa do Estado brasileiro.</p>
-                    <p>Abstract</p>
-                    <p>The object of this thesis is the legal system of the Brazilian Ouvidorias Públicas. The main goal of this work is the formulation of parameters to understand the working and organization of this institute regulated by the rationality found in the State and in the Law, in view of comprehending the meaning of this institute in relation to Brazilian democracy. The central hypothesis can be placed in the following terms: the Brazilian Ouvidorias Públicas, as agents of State control, would act above the tension between systemic and non-systemic rationality, and in this condition, upon democracy configuration itself. The main question of this thesis is that there is structural and functional possibility for Brazilian Ouvidorias Públicas to become an extra-organic and dialectical instrument of formulation and execution of public policies, and thus as a channel for inserting a non-systemic rationality inside the administrative structure of the Brazilian State.</p>`,
-            imgs: ["https://www.folhadelondrina.com.br/img/inline/3100000/0x800/Ouvidoria-publica-completa-35-anos-no-Brasil0310042400202109031627.webp"   
-                ]
+            text: `<iframe src="./O Regime Jurídico das Ouvidorias Públicas Brasileiras Causalidade de Sentido e Adequação Estruturo-Funcional - Manoel Eduardo Alves Camargo e Gomes.pdf"></iframe>`,
+            imgs: []
         }
     }
 ]

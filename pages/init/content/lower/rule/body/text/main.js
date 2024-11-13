@@ -20,6 +20,10 @@ export default function text(t){
         }
         >a:hover{
             color: var(--colorOrange);
+        }
+        >iframe{
+            width: 100%;
+            height: 75dvh;
         }`
     
     const text = createElementToPage(undefined, "div", style)
