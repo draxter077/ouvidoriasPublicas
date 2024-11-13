@@ -2,14 +2,14 @@ export default
 [
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPuMrBBvbtZZ7m3kRrnqwyH2wGTbqBI3SdrA&s",
-        title: "XV Assembleia e Seminário do Instituto Latinoamericano de Ombudsman - ILO",
+        title: "XV Assembleia e Seminário do Instituto Latinoamericano del Ombudsman-Defensor del Pueblo - ILO",
         content: {
             info: {
-                title: "XV Assembleia e Seminário do Instituto Latinoamericano de Ombudsman - ILO", 
+                title: "XV Assembleia e Seminário do Instituto Latinoamericano del Ombudsman-Defensor del Pueblo - ILO", 
                 time: ""
             },
             text: `<p>Realizada nos dias 4, 5 e 6 de Dezembro de 2024, em Foz do Iguaçu, 
-                    a XV Assembleia e Seminário do Instituto Latinoamericano de Ombudsman - ILO contou com a participação
+                    a XV Assembleia e Seminário do Instituto Latinoamericano del Ombudsman-Defensor del Pueblo - ILO contou com a participação
                     de vários pesquisadores e ouvidores.</p>`,
             imgs: ["https://www.gov.br/ouvidorias/pt-br/assuntos/noticias/2019/07/controladoria-marca-presenca-na-x-asamblea-general-del-instituto-latinoamericano-de-ombudsman-ilo/img-20190718-wa0031.jpg", 
                 "https://turkmenportal.com/images/uploads/blogs/webp/150886ee4c21d7dca3cf2702e5f688b2.webp",
