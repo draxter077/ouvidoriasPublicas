@@ -2,6 +2,7 @@ import slide from "./slide/main.js"
 
 export default function body(ob){
     let style = `{
+            width: 90%;
             height: 100%;
             background: var(--colorWhite);
             border-radius: 0px 0px 15px 15px;

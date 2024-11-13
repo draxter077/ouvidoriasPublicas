@@ -18,6 +18,7 @@ export default function upper(){
             align-items: center;
             justify-content: flex-start;
             height: fit-content;
+            width: 100%;
         }`
 
     const upper = createElementToPage(undefined, "div", style)
