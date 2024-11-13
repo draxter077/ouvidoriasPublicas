@@ -1,4 +1,4 @@
-import title from "./title/main.js"
+import brand from "./brand/main.js"
 import menu from "./menu/main.js"
 
 export default function top(){
@@ -25,7 +25,7 @@ export default function top(){
         }`
 
     const top = createElementToPage(undefined, "div", style)
-    top.appendChild(title())
+    top.appendChild(brand())
     top.appendChild(menu())
     return(top)
 }
