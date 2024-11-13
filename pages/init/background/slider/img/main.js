@@ -6,6 +6,6 @@ export default function img(parentClass){
         }`
 
     const img = createElementToPage(parentClass+">img", "img", style)
-    img.src = "https://draxter077.github.io/ouvidoriasPublicas/stockholmPalace.jpg"
+    img.src = "./imgs/stockholmPalace.jpg"
     return(img)
 }

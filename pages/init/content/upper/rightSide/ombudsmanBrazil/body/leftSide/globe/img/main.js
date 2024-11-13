@@ -9,6 +9,6 @@ export default function img(){
         }`
 
     const img = createElementToPage(undefined, "img", style)
-    img.src = "https://draxter077.github.io/ouvidoriasPublicas/brazil.jpg"
+    img.src = "./imgs/brazil.jpg"
     return(img)
 }

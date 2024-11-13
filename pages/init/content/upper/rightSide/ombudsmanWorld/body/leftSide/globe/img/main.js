@@ -6,6 +6,6 @@ export default function img(){
         }`
 
     const img = createElementToPage(undefined, "img", style)
-    img.src = "https://draxter077.github.io/ouvidoriasPublicas/globe.jpg"
+    img.src = "./imgs/globe.jpg"
     return(img)
 }
