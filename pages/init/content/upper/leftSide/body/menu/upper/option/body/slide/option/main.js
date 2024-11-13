@@ -12,6 +12,7 @@ export default function option(src, t, ob){
             border-top: 1px solid var(--colorBlack);
             padding: 10px;
             cursor: pointer;
+            color: var(--colorBlack);
             transition: color var(--transitionTime);
         }
         :hover{
