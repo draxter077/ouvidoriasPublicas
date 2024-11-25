@@ -10,10 +10,12 @@ export default function option(t, ob){
             align-items: center;
             width: 30%;
             height: 100%;
-            margin: 0px 0px 10px 0px;
+            margin: 0px 10px 10px 10px;
+            transition: width var(--transitionTime);
         }
         :responsive{
             width: 100%;
+            margin: 0px 0px 10px 0px;
             justify-content: flex-start;
             height: fit-content;
         }

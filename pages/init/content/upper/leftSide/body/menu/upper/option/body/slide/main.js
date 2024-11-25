@@ -3,10 +3,15 @@ import option from "./option/main.js"
 export default function slide(parentClass, ob){
     let style = `
         {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
             height: 100%;
             width: 100%;
             padding: 0px 10px;
-            overflow: scroll;
+            overflow-y: scroll;
+            overflow-x: hidden;
         }
     `
 

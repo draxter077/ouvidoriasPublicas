@@ -8,7 +8,7 @@ export default function option(src, t, ob){
             display: flex;
             flex-direction: row;
             align-items: center;
-            width: 100%;
+            width: 48%;
             border-top: 1px solid var(--colorBlack);
             padding: 10px;
             cursor: pointer;
