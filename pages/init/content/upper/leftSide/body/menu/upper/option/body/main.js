@@ -1,7 +1,8 @@
 import slide from "./slide/main.js"
 
 export default function body(ob){
-    let style = `{
+    let style = `
+        {
             width: 90%;
             height: 100%;
             background: var(--colorWhite);

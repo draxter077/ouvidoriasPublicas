@@ -7,7 +7,7 @@ export default function upper(){
     let style = `
         {
             width: 80%;
-            height: 100%;
+            height: 90%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;

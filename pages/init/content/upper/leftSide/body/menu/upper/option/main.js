@@ -14,6 +14,8 @@ export default function option(t, ob){
         }
         :responsive{
             width: 100%;
+            justify-content: flex-start;
+            height: fit-content;
         }
     `
 
