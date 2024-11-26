@@ -6,12 +6,12 @@ import events from "./events.js"
 export default function upper(){
     let style = `
         {
-            width: 80%;
-            height: 90%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-end;
+            width: 80%;
+            height: 90%;
         }
         :responsive{
             flex-direction: column;
