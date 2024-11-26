@@ -4,7 +4,6 @@ export default function text(t){
             width: 100%;
             padding: 0px 0px 0px 10px;
             line-height: 1.0;
-            text-align: justify;
         }`
 
     const text = createElementToPage(undefined, "div", style)

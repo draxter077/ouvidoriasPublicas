@@ -27,17 +27,18 @@ export default function title(t){
         let bodyNowMH = body.style.maxHeight
         if(bodyNowMH == "100%"){
             if(window.screen.width > 1000){body.parentElement.style.width = "30%"}
+            body.style.padding = "0px"
             body.style.maxHeight = "0px"
         }
         else{
             for(let i = 0; i < upper.children.length; i++){
                 if(upper.children[i].children[1].style.maxHeight == "100%"){
                     upper.children[i].children[1].style.maxHeight = "0px"
-                    if(window.screen.width > 1000){upper.children[i].style.width = "30%"}
+                    if(window.screen.width > 1000){upper.children[i].style.width = "30%";upper.children[i].children[1].style.padding = "0px"}
                     break;
                 }
             }
-            if(window.screen.width > 1000){body.parentElement.style.width = "80%"}
+            if(window.screen.width > 1000){body.parentElement.style.width = "80%";body.style.padding = "0px 10px 20px 10px"}
             body.style.maxHeight = "100%"
         }
     }

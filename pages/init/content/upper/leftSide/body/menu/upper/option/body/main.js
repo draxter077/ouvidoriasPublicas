@@ -8,8 +8,9 @@ export default function body(ob){
             background: var(--colorWhite);
             border-radius: 0px 0px 15px 15px;
             max-height: 0px;
+            padding: 0px;
             overflow: hidden;
-            transition: max-height var(--transitionTime), border-radius var(--transitionTime);
+            transition: max-height var(--transitionTime), border-radius var(--transitionTime), padding var(--transitionTime);
         }
         :responsive{
             height: 300px;
