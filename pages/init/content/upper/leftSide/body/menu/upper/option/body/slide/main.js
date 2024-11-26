@@ -7,11 +7,16 @@ export default function slide(parentClass, ob){
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-between;
+            align-items: flex-start;
             height: 100%;
             width: 100%;
             padding: 0px 10px;
             overflow-y: scroll;
             overflow-x: hidden;
+        }
+        :responsive{
+            flex-direction: column;
+            flex-wrap: nowrap;
         }
     `
 

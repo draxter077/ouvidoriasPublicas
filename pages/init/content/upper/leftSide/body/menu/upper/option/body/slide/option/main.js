@@ -17,6 +17,9 @@ export default function option(src, t, ob){
         }
         :hover{
             color: var(--colorOrange);
+        }
+        :responsive{
+            width: 100%;
         }`
 
     const option = createElementToPage(undefined, "div", style)
