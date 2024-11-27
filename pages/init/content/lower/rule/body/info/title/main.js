@@ -3,7 +3,7 @@ export default function title(t){
         {
             width: 80%;
             text-align: center;
-            font-size: 27px;
+            font-size: 22px;
             color: var(--colorOrange);
             font-weight: 900;
         }

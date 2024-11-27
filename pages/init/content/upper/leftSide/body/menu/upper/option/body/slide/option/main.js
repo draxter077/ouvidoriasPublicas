@@ -27,10 +27,14 @@ export default function option(src, t, ob){
 
     const option = createElementToPage(undefined, "div", style)
 
-    option.onclick = function a(){
+    option.onclick = async function a(){
         document.getElementById("lowerPage").innerHTML = ""
         document.getElementById("lowerPage").appendChild(rule(ob))
         document.getElementById("initContent").style.translate = "0% -50%"
+        await new Promise(r => setTimeout(r, 600));
+        if(document.getElementsByTagName("iframe").length != 0){
+            document.getElementsByTagName("iframe")[0].scrollIntoView({behavior: "smooth"})
+        }
     }
     option.appendChild(img(src))
     option.appendChild(text(t))
