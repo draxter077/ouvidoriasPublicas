@@ -18,6 +18,9 @@ export default function option(src, t, ob){
         :hover{
             color: var(--colorOrange);
         }
+        :hover>img{
+            padding: 5px;
+        }
         :responsive{
             width: 100%;
         }`

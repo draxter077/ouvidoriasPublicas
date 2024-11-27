@@ -5,6 +5,8 @@ export default function img(src){
             max-height: 90px;
             border-radius: 5px;
             box-shadow: 0px 0px 2px 0px var(--colorBlack);
+            padding: 0px;
+            transition: padding var(--transitionTime);
         }`
     
     if(src != undefined){
