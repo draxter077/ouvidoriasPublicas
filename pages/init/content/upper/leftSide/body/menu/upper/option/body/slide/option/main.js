@@ -26,7 +26,6 @@ export default function option(src, t, ob){
         }`
 
     const option = createElementToPage(undefined, "div", style)
-
     option.onclick = async function a(){
         document.getElementById("lowerPage").innerHTML = ""
         document.getElementById("lowerPage").appendChild(rule(ob))
