@@ -2,7 +2,6 @@ export default function text(t){
     let style = `
         {
             width: 100%;
-            height: 100%;
             text-align: justify;
             margin: 10px 0px 0px 0px;
             color: var(--colorBlack);

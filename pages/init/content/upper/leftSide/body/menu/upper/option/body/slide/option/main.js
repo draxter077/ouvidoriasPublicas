@@ -30,8 +30,9 @@ export default function option(src, t, ob){
         document.getElementById("lowerPage").innerHTML = ""
         document.getElementById("lowerPage").appendChild(rule(ob))
         document.getElementById("initContent").style.translate = "0% -50%"
-        await new Promise(r => setTimeout(r, 750));
         if(document.getElementsByTagName("iframe").length != 0){
+            document.getElementsByTagName("iframe")[0].parentElement.style.height = "100%"
+            await new Promise(r => setTimeout(r, 750));
             document.getElementsByTagName("iframe")[0].scrollIntoView({behavior: "smooth"})
         }
     }

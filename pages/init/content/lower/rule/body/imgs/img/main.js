@@ -10,8 +10,22 @@ export default function img(src){
             width: 100%;
             height: fit-content;
         }`
-        
-    const img = createElementToPage(undefined, "img", style)
-    img.src = src
+
+    let img;
+    if(src.split(".")[src.split(".").length - 1] == "mp4"){
+        console.log("oi")
+        img = createElementToPage(undefined, "video", style)
+        img.controls = "true"
+        let source = createElementToPage(undefined, "source", style)
+        source.style.margin = "none"
+        source.style.boxShadow = "none"
+        source.src = src
+        source.type = "video/mp4"
+        img.appendChild(source)
+    }
+    else{
+        img = createElementToPage(undefined, "img", style)
+        img.src = src
+    }
     return(img)
 }
