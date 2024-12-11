@@ -1,15 +1,23 @@
-import background from "./background/main.js"
-import content from "./content/main.js"
+import top from "./top/main.js"
+import history from "./history/main.js"
+import maps from "./maps/main.js"
+import events from "./events/main.js"
+import news from "./news/main.js"
+import articles from "./articles/main.js"
 
 export default function init(){
     let style = `
         {
-            height: 100dvh;
             width: 100%;
+            height: 100%;
         }`
 
     const init = createElementToPage(undefined, "div", style)
-    init.appendChild(background())
-    init.appendChild(content())
+    init.appendChild(top())
+    init.appendChild(history())
+    init.appendChild(maps())
+    init.appendChild(events())
+    init.appendChild(news())
+    init.appendChild(articles())
     return(init)
 }

@@ -108,7 +108,9 @@ window.createElementToPage = function createElementToPage(n, t, stl){
     }
 
     const el = document.createElement(t)
-    el.className = addClass()
+    if(stl != undefined){
+        el.className = addClass()
+    }
     return(el)
 }
 

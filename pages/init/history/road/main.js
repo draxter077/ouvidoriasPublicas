@@ -1,0 +1,15 @@
+import img from "./img/main.js"
+
+export default function road(){
+    let style = `
+        {
+            height: 90%;
+            width: 100%;
+            padding: 0px 10px 10px;
+            overflow: scroll;
+        }`
+
+    const road = createElementToPage(undefined, "div", style)
+    road.appendChild(img())
+    return(road)
+}
