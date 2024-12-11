@@ -7,7 +7,7 @@ export default function option(){
             display: flex;
             flex-direction: column;
             width: 24%;
-            border: 1px solid var(--colorBlack);
+            box-shadow: 0px 0px 2px 0px var(--colorBlack);
             border-radius: 5px;
             margin: 0px 10px 10px 0px;
             padding: 5px 10px;
@@ -16,7 +16,7 @@ export default function option(){
             transition: box-shadow var(--transitionTime);
         }
         :hover{
-            box-shadow: 0px 0px 5px 0px var(--colorBlack);
+            box-shadow: 0px 0px 7px 0px var(--colorBlack);
         }`
 
     const option = createElementToPage(undefined, "button", style)

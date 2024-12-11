@@ -9,6 +9,6 @@ export default function search(){
         }`
 
     const search = createElementToPage(undefined, "input", style)
-    search.placeholder = "Pesquise eventos"
+    search.placeholder = "Pesquise eventos por títulos, lugares ou datas"
     return(search)
 }

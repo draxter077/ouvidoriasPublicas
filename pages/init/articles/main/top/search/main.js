@@ -9,6 +9,6 @@ export default function search(){
         }`
 
     const search = createElementToPage(undefined, "input", style)
-    search.placeholder = "Pesquise artigos"
+    search.placeholder = "Pesquise artigos por título, autores ou data"
     return(search)
 }
