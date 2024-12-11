@@ -8,11 +8,15 @@ export default function menu(){
             position: relative;
             background: var(--colorWhite);
             color: var(--colorBlue);
-            border-radius: 10px;
             height: fit-content;
-            margin: 0px 0px 0px 20px;
+            margin: 0px 0px 0px 10px;
+            padding: 0px 10px 0px 0px;
             font-size: 18px;
             cursor: pointer;
+            border-right: 1px solid var(--colorBlack);
+        }
+        >button:last-child{
+            border-right: none;
         }
         >button::after{
             content: "";
