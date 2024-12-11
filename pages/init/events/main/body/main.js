@@ -8,6 +8,7 @@ export default function body(){
             flex-wrap: wrap;
             width: 100%;
             height: 95%;
+            padding: 5px;
             overflow: scroll;
             margin: 20px 0px 0px 0px;
         }`

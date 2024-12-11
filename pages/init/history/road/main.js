@@ -6,7 +6,7 @@ export default function road(){
             height: 90%;
             width: 100%;
             padding: 0px 10px 10px;
-            overflow: scroll;
+            overflow-x: scroll;
         }`
 
     const road = createElementToPage(undefined, "div", style)
