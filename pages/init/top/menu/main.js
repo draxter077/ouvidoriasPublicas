@@ -9,14 +9,9 @@ export default function menu(){
             background: var(--colorWhite);
             color: var(--colorBlue);
             height: fit-content;
-            margin: 0px 0px 0px 10px;
-            padding: 0px 10px 0px 0px;
             font-size: 18px;
             cursor: pointer;
-            border-right: 1px solid var(--colorBlack);
-        }
-        >button:last-child{
-            border-right: none;
+            margin: 0px 20px 0px 0px;
         }
         >button::after{
             content: "";
