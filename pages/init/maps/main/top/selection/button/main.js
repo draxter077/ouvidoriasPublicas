@@ -7,6 +7,14 @@ export default function button(t){
             if(children[i] == e.target){
                 e.target.style.background = "var(--colorBlue)"
                 e.target.style.color = "var(--colorWhite)"
+                if(e.target.innerHTML == "Brasil"){
+                    e.target.parentElement.parentElement.parentElement.children[1].children[0].children[0].style.translate = "-50%"
+                    e.target.parentElement.parentElement.parentElement.children[1].children[1].children[0].style.translate = "-50%"
+                }
+                else{
+                    e.target.parentElement.parentElement.parentElement.children[1].children[0].children[0].style.translate = "0%"
+                    e.target.parentElement.parentElement.parentElement.children[1].children[1].children[0].style.translate = "0%"
+                }
             }
             else{
                 children[i].style.background = "var(--colorWhite)"

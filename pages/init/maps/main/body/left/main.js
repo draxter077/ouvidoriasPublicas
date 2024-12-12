@@ -1,12 +1,14 @@
+import globe from "./globe/main.js"
+
 export default function left(){
     let style = `
         {
             width: 50%;
             height: 100%;
-            background: orange;
+            overflow: hidden;
         }`
 
     const left = createElementToPage(undefined, "div", style)
-    left.innerHTML = "Globo"
+    left.appendChild(globe())
     return(left)
 }

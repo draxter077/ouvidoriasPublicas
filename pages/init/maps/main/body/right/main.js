@@ -1,12 +1,14 @@
+import list from "./list/main.js"
+
 export default function right(){
     let style = `
         {
             width: 50%;
             height: 100%;
-            background: yellow;
+            overflow: hidden;
         }`
 
     const right = createElementToPage(undefined, "div", style)
-    right.innerHTML = "Opções"
+    right.appendChild(list())
     return(right)
 }
