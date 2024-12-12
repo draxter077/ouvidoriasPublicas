@@ -7,7 +7,7 @@ export default function selection(){
             flex-direction: row;
             align-items: center;
             border-radius: 5px;
-            box-shadow: 0px 0px 4px 0px var(--colorBlack);
+            box-shadow: 0px 0px 1px 0px var(--colorBlack);
         }
         >button{
             background: var(--colorWhite);

@@ -1,12 +1,16 @@
+import globe from "./globe/main.js"
+
 export default function brazil(){
     let style = `
         {
             width: 50%;
             height: 100%;
-            background: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }`
 
     const brazil = createElementToPage(undefined, "div", style)
-    brazil.innerHTML = "Brasil"
+    brazil.appendChild(globe())
     return(brazil)
 }

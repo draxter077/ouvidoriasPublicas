@@ -1,12 +1,23 @@
+import option from "./option/main.js"
+import countries from './countries/main.js'
+
 export default function world(){
     let style = `
         {
             width: 50%;
-            height: 100%;
-            background: grey;
+            height: 90%;
+            padding: 10px;
+            overflow: scroll;
+        }
+        :responsive{
+                width: 100%;
+                height: 100%;
         }`
 
     const world = createElementToPage(undefined, "div", style)
-    world.innerHTML = "Mundo"
+    const cs = countries.countries;
+    for(let i = 0; i < cs.length; i++){
+        world.appendChild(option(cs[i].name, cs[i].info))
+    }
     return(world)
 }

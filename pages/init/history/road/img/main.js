@@ -2,6 +2,8 @@ export default function img(){
     let style = `
         {
             height: 100%;
+            box-shadow: 0px 0px 5px 0px var(--colorBlack);
+            border-radius: 15px;
         }`
 
     const img = createElementToPage(undefined, "img", style)

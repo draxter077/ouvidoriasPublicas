@@ -8,7 +8,7 @@ export default function history(){
             width: 100%;
             height: 100dvh;
             padding: 0px 10px 10px;
-            background: red;
+            background: var(--backgroundColorBlue);
         }` 
 
     const history = createElementToPage(undefined, "div", style)

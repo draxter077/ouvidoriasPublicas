@@ -8,7 +8,7 @@ export default function maps(){
             width: 100%;
             height: 100dvh;
             padding: 0px 10px 10px;
-            background: green;
+            background: var(--backgroundColorBlue);
         }` 
 
     const maps = createElementToPage(undefined, "div", style)

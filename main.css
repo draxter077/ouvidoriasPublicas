@@ -25,6 +25,7 @@
 	--colorBlack: rgb(0, 0, 0);
 	--colorOrange: rgb(243, 111, 33);
 	--colorBlue: rgb(51, 102, 255);
+	--backgroundColorBlue: rgb(51, 102, 255, 0.4);
 	--transitionTime: 0.5s;
 	--animationDelay0: 0s;
 	--animationDelay1: 0.5s;

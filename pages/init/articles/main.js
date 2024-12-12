@@ -8,7 +8,7 @@ export default function articles(){
             width: 100%;
             height: 100dvh;
             padding: 0px 10px 10px;
-            background: purple;
+            background: var(--backgroundColorBlue);
         }` 
 
     const articles = createElementToPage(undefined, "div", style)

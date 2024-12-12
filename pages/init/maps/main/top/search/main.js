@@ -10,5 +10,12 @@ export default function search(){
 
     const search = createElementToPage(undefined, "input", style)
     search.placeholder = "Pesquise"
+    search.oninput = function a(e){
+        const value = e.target.value
+        const el = document.getElementById(value.toLowerCase())
+        el.scrollIntoView({behavior: "smooth", block: "nearest"})
+        el.children[1].style.maxHeight = "200px"
+        el.children[0].style.background = "var(--colorOrange)"
+    }
     return(search)
 }
