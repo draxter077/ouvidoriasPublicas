@@ -1,4 +1,4 @@
-import author from "./author/main.js"
+import place from "./place/main.js"
 import date from "./date/main.js"
 
 export default function down(){
@@ -14,7 +14,7 @@ export default function down(){
         }`
 
     const down = createElementToPage(undefined, "div", style)
-    down.appendChild(author())
+    down.appendChild(place())
     down.appendChild(date())
     return(down)
 }

@@ -9,6 +9,6 @@ export default function search(){
         }`
 
     const search = createElementToPage(undefined, "input", style)
-    search.placeholder = "Pesquise notícias por título, local ou data"
+    search.placeholder = "Pesquise notícias por títulos ou datas"
     return(search)
 }

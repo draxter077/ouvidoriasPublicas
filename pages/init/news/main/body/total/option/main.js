@@ -9,7 +9,7 @@ export default function option(){
             width: 24%;
             box-shadow: 0px 0px 2px 0px var(--colorBlack);
             border-radius: 5px;
-            margin: 0px 10px 10px 0px;
+            margin: 0px 15px 15px 0px;
             padding: 5px 10px;
             background: none;
             cursor: pointer;

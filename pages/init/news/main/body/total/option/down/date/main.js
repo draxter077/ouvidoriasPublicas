@@ -1,5 +1,5 @@
 export default function date(){
     const date = createElementToPage(undefined, "div", undefined)
-    date.innerHTML = "2025"
+    date.innerHTML = "01/01/2025"
     return(date)
 }
