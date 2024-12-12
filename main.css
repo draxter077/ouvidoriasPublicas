@@ -22,10 +22,10 @@
 }
 :root{
 	--colorWhite: rgb(245, 245, 245);
-	--colorBlack: rgb(0, 0, 0);
+	--colorBlack: rgb(10, 10, 10);
 	--colorOrange: rgb(243, 111, 33);
-	--colorBlue: rgb(51, 102, 255);
-	--backgroundColorBlue: rgb(51, 102, 255, 0.4);
+	--colorBlue: rgb(100, 120, 255);
+	--backgroundColorBlue: rgb(100, 120, 255, 0.4);
 	--transitionTime: 0.5s;
 	--animationDelay0: 0s;
 	--animationDelay1: 0.5s;
