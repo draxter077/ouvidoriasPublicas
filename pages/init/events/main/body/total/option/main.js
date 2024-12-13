@@ -25,5 +25,8 @@ export default function option(){
     const option = createElementToPage(undefined, "button", style)
     option.appendChild(up())
     option.appendChild(down())
+    option.onclick = function a(e){
+        e.target.parentElement.parentElement.parentElement.parentElement.parentElement.children[6].style.translate = "0%"
+    }
     return(option)
 }
