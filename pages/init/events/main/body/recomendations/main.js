@@ -10,6 +10,10 @@ export default function recomendations(){
             height: 100%;
             padding: 5px 10px 5px 5px;
             border-right: 1px solid var(--colorBlack);
+        }
+        :responsive{
+            width: 100%;
+            border: 0px;
         }`
 
     const recomendations = createElementToPage(undefined, "div", style)

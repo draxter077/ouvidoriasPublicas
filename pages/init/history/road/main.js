@@ -9,6 +9,9 @@ export default function road(){
             background: var(--colorWhite);
             border-radius: 5px;
             overflow-x: scroll;
+        }
+        :responsive{
+            height: 85%;
         }`
 
     const road = createElementToPage(undefined, "div", style)

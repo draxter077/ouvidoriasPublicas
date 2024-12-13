@@ -16,6 +16,10 @@ export default function top(){
             padding: 5px 50px;
             background: var(--colorWhite);
             box-shadow: 0px 0px 10px 0px var(--colorBlack);
+        }
+        :responsive{
+            padding: 5px;
+            flex-direction: column;
         }`
 
     const top = createElementToPage(undefined, "div", style)

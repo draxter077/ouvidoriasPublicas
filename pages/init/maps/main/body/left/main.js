@@ -6,6 +6,9 @@ export default function left(){
             width: 50%;
             height: 100%;
             overflow: hidden;
+        }
+        :responsive{
+            width: 100%;    
         }`
 
     const left = createElementToPage(undefined, "div", style)

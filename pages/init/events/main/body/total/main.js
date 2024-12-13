@@ -10,6 +10,9 @@ export default function total(){
             width: 70%;
             height: 100%;
             padding: 5px 5px 5px 10px;
+        }
+        :responsive{
+            width: 100%;
         }`
 
     const total = createElementToPage(undefined, "div", style)

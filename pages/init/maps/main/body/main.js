@@ -9,6 +9,9 @@ export default function body(){
             width: 100%;
             height: 100%;
             margin: 20px 0px 0px 0px;
+        }
+        :responsive{
+            flex-direction: column;
         }`
 
     const body = createElementToPage(undefined, "div", style)

@@ -17,6 +17,9 @@ export default function option(){
         }
         :hover{
             box-shadow: 0px 0px 7px 0px var(--colorBlack);
+        }
+        :responsive{
+            display: none;
         }`
 
     const option = createElementToPage(undefined, "button", style)

@@ -4,6 +4,9 @@ export default function menu(){
             display: flex;
             flex-direction: row;
         }
+        :responsive{
+            justify-content: space-between;
+        }
         >button{
             position: relative;
             background: var(--colorWhite);
@@ -11,7 +14,7 @@ export default function menu(){
             height: fit-content;
             font-size: 18px;
             cursor: pointer;
-            margin: 0px 20px 0px 0px;
+            margin: 0px 15px 0px 0px;
         }
         >button::after{
             content: "";
