@@ -4,7 +4,9 @@ export default function tag(){
             position: absolute;
             bottom: 0%;
             width: 100%;
-            background: var(--backgroundColorWhite);
+            background: var(--colorWhite);
+            border-radius: 0px 0px 5px 5px;
+            padding: 5px;
         }`
 
     const tag = createElementToPage(undefined, "div", style)
