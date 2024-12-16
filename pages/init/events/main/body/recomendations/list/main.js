@@ -1,5 +1,6 @@
 import main from "./main/main.js"
 import option from "./option/main.js"
+import events from "./events.js"
 
 export default function list(){
     let style = `
