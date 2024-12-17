@@ -1,4 +1,5 @@
 import option from "./option/main.js"
+import events from "./events.js"
 
 export default function total(){
     let style = `
@@ -16,8 +17,9 @@ export default function total(){
         }`
 
     const total = createElementToPage(undefined, "div", style)
-    for(let i = 0; i < 100; i++){
-        total.appendChild(option())
+    for(let i = 0; i < events.length; i++){
+        let e = events[i]
+        total.appendChild(option(e.title, e.date, e.location, e.link))
     }
     return(total)
 }
