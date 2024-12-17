@@ -9,14 +9,14 @@ export default function search(){
         }`
 
     const search = createElementToPage(undefined, "input", style)
-    search.placeholder = "Pesquise eventos por títulos, lugares ou datas"
+    search.placeholder = "Pesquise eventos por título, lugar ou data"
     search.oninput = function a(e){
         const value = e.target.value.replaceAll(" ", "")
         const options = e.target.parentElement.parentElement.children[1].children[1].children
         for(let i = 0; i < options.length; i++){
-            let oTitle = options[i].children[0].innerHTML
-            let oDate = options[i].children[1].children[1].innerHTML
-            let oLocation = options[i].children[1].children[0].innerHTML
+            let oTitle = options[i].children[0].innerHTML.replaceAll(" ", "")
+            let oDate = options[i].children[1].children[1].innerHTML.replaceAll(" ", "")
+            let oLocation = options[i].children[1].children[0].innerHTML.replaceAll(" ", "")
             
             for(let j = 0; j < oTitle.length - value.length + 1; j++){
                 let optionsText = ""
