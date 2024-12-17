@@ -9,7 +9,7 @@ export default function down(d, l){
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            font-size: 12px;
+            font-size: 10px;
             font-style: italic;
         }`
 

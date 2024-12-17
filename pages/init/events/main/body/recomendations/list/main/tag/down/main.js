@@ -8,7 +8,7 @@ export default function down(d, l){
             flex-direction: row;
             justify-content: space-between;
             width: 100%;
-            font-size: 12px;
+            font-size: 10px;
             font-style: italic;
         }`
 
