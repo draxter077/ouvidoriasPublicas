@@ -1,7 +1,7 @@
 export default
 [
     {
-        "title":"alskjdhfaowudhfhaoslkdfhaclnsdjfhalsdjkfhaslkdjfhs",
+        "title":"alskjdhfaowudhfh aoslkdfhaclns djfhalsdjkfhasl kdjfhs",
         "date":"03/01/2024",
         "location":"Porto Alegre - RS",
         "link":"https://www.google.com"

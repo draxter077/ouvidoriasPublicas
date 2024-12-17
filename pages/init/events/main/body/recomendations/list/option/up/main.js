@@ -2,7 +2,7 @@ export default function up(t){
     let style = `
         {
             max-width: 100%;
-            overflow: hidden;
+            text-align: left;
         }`
     
     const up = createElementToPage(undefined, "div", style)

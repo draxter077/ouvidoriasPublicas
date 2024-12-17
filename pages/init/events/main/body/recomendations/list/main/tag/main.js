@@ -7,6 +7,7 @@ export default function tag(t, d, l){
             position: absolute;
             display: flex;
             flex-direction: column;
+            text-align: left;
             bottom: 0%;
             width: 100%;
             background: var(--colorWhite);
