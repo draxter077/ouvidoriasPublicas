@@ -1,9 +1,11 @@
 import up from "./up/main.js"
 import down from "./down/main.js"
+import toClick from "./toClick/main.js"
 
-export default function option(){
+export default function option(t, d, l, h){
     let style = `
         {
+            position: relative;
             display: flex;
             flex-direction: column;
             width: 100%;
@@ -16,14 +18,15 @@ export default function option(){
             transition: box-shadow var(--transitionTime);
         }
         :hover{
-            box-shadow: 0px 0px 7px 0px var(--colorBlack);
+            box-shadow: 0px 0px 10px 0px var(--colorBlue);
         }
         :responsive{
             display: none;
         }`
 
     const option = createElementToPage(undefined, "button", style)
-    option.appendChild(up())
-    option.appendChild(down())
+    option.appendChild(up(t))
+    option.appendChild(down(d, l))
+    option.appendChild(toClick(h))
     return(option)
 }

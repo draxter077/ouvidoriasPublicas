@@ -13,9 +13,10 @@ export default function list(){
         }`
 
     const list = createElementToPage(undefined, "div", style)
-    list.appendChild(main())
-    for(let i = 0; i < 5; i++){
-        list.appendChild(option())
+    list.appendChild(main(events.main))
+    for(let i = 0; i < events.list.length; i++){
+        let e = events.list[i]
+        list.appendChild(option(e.title, e.date, e.location, e.link))
     }
     return(list)
 }
