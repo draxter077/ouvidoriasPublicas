@@ -11,6 +11,9 @@ export default function main(){
             padding: 20px;
             border-radius: 15px;
             background: var(--colorWhite);
+        }
+        :responsive{
+            height: 85%;
         }`
 
     const main = createElementToPage(undefined, "div", style)

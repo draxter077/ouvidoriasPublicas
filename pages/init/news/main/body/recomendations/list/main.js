@@ -1,5 +1,6 @@
 import main from "./main/main.js"
 import option from "./option/main.js"
+import news from "./news.js"
 
 export default function list(){
     let style = `
@@ -12,9 +13,10 @@ export default function list(){
         }`
 
     const list = createElementToPage(undefined, "div", style)
-    list.appendChild(main())
-    for(let i = 0; i < 5; i++){
-        list.appendChild(option())
+    list.appendChild(main(news.main))
+    for(let i = 0; i < news.list.length; i++){
+        let e = news.list[i]
+        list.appendChild(option(e.title, e.date, e.location, e.link))
     }
     return(list)
 }

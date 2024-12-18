@@ -1,5 +1,5 @@
-export default function place(){
+export default function place(l){
     const place = createElementToPage(undefined, "div", undefined)
-    place.innerHTML = "São Paulo - SP"
+    place.innerHTML = l
     return(place)
 }
