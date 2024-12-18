@@ -1,200 +1,239 @@
 export default 
 [
     {
-      "name": "Rede de ouvidoria de Alagoas", 
+      "name": "Federal", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 95.980/2024 - Art. 15º"
+          "title": "Ouvidoria Geral da AGU", 
+          "data": "ouvidoriageral@agu.gov.br"
+        },
+        {
+          "title": "Arquivo Nacional", 
+          "data": "ouvidoria@arquivonacional.gov.br"
+        },
+        {
+          "title": "ABIN", 
+          "data": "ouvidoria@abin.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias do Amapá", 
+      "name": "Acre", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 1.563/2021 - Art. 24º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria.mpe@ac.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias do Amazonas", 
+      "name": "Amazonas", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Protocolo de Intenções Nº 01/2018"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.am.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias do Estado da Bahia", 
+      "name": "Bahia", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.ba.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias do Estado do Ceará", 
+      "name": "Ceará", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 33.485/2019 - Art. 6º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.ce.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias públicas do Distrito Federal", 
+      "name": "Espírito Santo", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ministério Público do Estado", 
+          "data": "gcardoso@mpes.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidoria estadual do Espírito Santo", 
+      "name": "Goiás", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.go.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias de Goiás", 
+      "name": "Maranhão", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº10.466/2024 - Art. 2º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.ma.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias do Estado do Maranhão", 
+      "name": "Mato Grosso", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 35.640 - Art. 4º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.mt.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias públicas do Mato Grosso do Sul", 
+      "name": "Mato Grosso do Sul", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.ms.gov.br"
         }
       ]
     },
     {
-      "name": "Rede mineira de Ouvidorias Públicas", 
+      "name": "Minas Gerais", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ouvidoria Geral do Estado", 
+          "data": "gabinete@ouvidoriageral.mg.gov.br"
+        },
+        {
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.mg.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias públicas do Pará", 
+      "name": "Pará", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 113/2019"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.pa.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias da Paraíba", 
+      "name": "Paraíba", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 38.309/2018 - Art. 3º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.pb.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias do Paraná", 
+      "name": "Paraná", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoriamp@mp.pr.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias do Estado de Pernambuco", 
+      "name": "Piauí", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 48.659/2020 - Art. 7º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.pi.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias públicas do Piauí", 
+      "name": "Pernambuco", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto 23.006/2024"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidor@mp.pe.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias e transparência do Rio de Janeiro", 
+      "name": "Rio de Janeiro", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 46.622/2019 - Art. 4º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.rj.gov.br"
         }
       ]
     },
     {
-      "name": "Rede RS de ouvidorias públicas", 
+      "name": "Rio Grande do Norte", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoriamp@rn.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias de Rondônia", 
+      "name": "Rio Grande do Sul", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Sem informações conclusivas"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.rs.gov.br"
         }
       ]
     },
     {
-      "name": "Rede estadual de ouvidorias de Roraima", 
+      "name": "Rondônia", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 26.553/2019"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.ro.gov.br"
         }
       ]
     },
     {
-      "name": "Rede paulista de Ouvidorias", 
+      "name": "Roraima", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 60.399/2014 - Art. 23º"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.rr.gov.br"
         }
       ]
     },
     {
-      "name": "Rede de ouvidorias estadual do Sergipe", 
+      "name": "Santa Catarina", 
       "info": [
         {
-          "title": "Criação", 
-          "data": "Pelo Decreto Nº 40.370/2019"
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.sc.gov.br"
+        }
+      ]
+    },
+    {
+      "name": "São Paulo", 
+      "info": [
+        {
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.sp.gov.br"
+        }
+      ]
+    },
+    {
+      "name": "Sergipe", 
+      "info": [
+        {
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.se.gov.br"
+        }
+      ]
+    },
+    {
+      "name": "Tocantis", 
+      "info": [
+        {
+          "title": "Ministério Público do Estado", 
+          "data": "ouvidoria@mp.to.gov.br"
         }
       ]
     }
