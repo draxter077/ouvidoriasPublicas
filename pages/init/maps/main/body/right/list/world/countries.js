@@ -1,6 +1,5 @@
 export default 
-{
-  "countries": [
+[
     {
       "name": "Abecásia", 
       "info": [
@@ -1489,5 +1488,4 @@ export default
         }
       ]
     }
-  ]
-}
+]

@@ -1,5 +1,5 @@
 import option from "./option/main.js"
-import countries from './countries/main.js'
+import ouvids from './ouvids.js'
 
 export default function brazil(){
     let style = `
@@ -19,9 +19,8 @@ export default function brazil(){
         }`
 
     const brazil = createElementToPage(undefined, "div", style)
-    const cs = countries.countries;
-    for(let i = 0; i < cs.length; i++){
-        brazil.appendChild(option(cs[i].name, cs[i].info))
+    for(let i = 0; i < ouvids.length; i++){
+        brazil.appendChild(option(ouvids[i].name, ouvids[i].info))
     }
     return(brazil)
 }

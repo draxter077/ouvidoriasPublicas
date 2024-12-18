@@ -1,5 +1,5 @@
 import option from "./option/main.js"
-import countries from './countries/main.js'
+import countries from './countries.js'
 
 export default function world(){
     let style = `
@@ -19,9 +19,8 @@ export default function world(){
         }`
 
     const world = createElementToPage(undefined, "div", style)
-    const cs = countries.countries;
-    for(let i = 0; i < cs.length; i++){
-        world.appendChild(option(cs[i].name, cs[i].info))
+    for(let i = 0; i < countries.length; i++){
+        world.appendChild(option(countries[i].name, countries[i].info))
     }
     return(world)
 }

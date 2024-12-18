@@ -1,6 +1,5 @@
 export default 
-{
-  "countries": [
+[
     {
       "name": "Rede de ouvidoria de Alagoas", 
       "info": [
@@ -200,4 +199,3 @@ export default
       ]
     }
   ]
-}
