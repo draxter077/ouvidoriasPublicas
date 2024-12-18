@@ -6,8 +6,11 @@ export default function option(t, i){
         {
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: 48%;
             margin: 0px 0px 10px 0px;
+        }
+        :responsive{
+            width: 100%;
         }`
     const option = createElementToPage(undefined, "div", style)
     option.appendChild(title(t))

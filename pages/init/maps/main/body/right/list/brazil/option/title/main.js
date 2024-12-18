@@ -8,7 +8,7 @@ export default function title(t){
             font-weight: 900;
             transition: box-shadow var(--transitionTime), background var(--transitionTime);
             cursor: pointer;
-        }    
+        }
         :hover{
             box-shadow: 0px 0px 10px 3px var(--colorOrange);
         }`
@@ -16,8 +16,8 @@ export default function title(t){
     const title = createElementToPage(undefined, "div", style)
     title.innerHTML = t
 
-    title.onclick = function a(ev){
-        const e = ev.target
+    title.onclick = function a(Event){
+        const e = Event.target
         const eValue = e.parentElement.children[1].style.maxHeight
         const l = "200px"
 
