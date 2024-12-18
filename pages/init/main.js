@@ -5,8 +5,6 @@ import events from "./events/main.js"
 import news from "./news/main.js"
 import articles from "./articles/main.js"
 
-import reader from "./reader/main.js"
-
 export default function init(){
     let style = `
         {
@@ -21,6 +19,5 @@ export default function init(){
     init.appendChild(events())
     init.appendChild(news())
     init.appendChild(articles())
-    init.appendChild(reader())
     return(init)
 }
