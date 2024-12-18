@@ -9,34 +9,34 @@ export default
     },
     "list":[
         {
-            "title":"título1",
-            "date":"01/01/2024",
-            "location":"São Paulo - SP",
+            "title":"XXVII Congresso Brasileiro de Ouvidores",
+            "date":"02/09/2024 a 04/09/2024",
+            "location":"Rio de Janeiro/RJ",
+            "link":"https://www.abonacional.org.br/congresso-sobre/17f8ad3e-1742-445e-94f0-814b1d068951"
+        },
+        {
+            "title":"Seminário Nacional de Ouvidoria",
+            "date":"04/06/2024 a 05/06/2024",
+            "location":"João Pessoa/PB",
+            "link":"https://www.gov.br/ouvidorias/pt-br/ouvidorias/eventos/seminarios-nacionais-de-ouvidoria-2024/joao-pessoa-pb"
+        },
+        {
+            "title":"recomendação número 3",
+            "date":"01/01/2024 a 31/12/2024",
+            "location":"Brasil/BR",
             "link":"https://www.google.com"
         },
         {
-            "title":"título2",
-            "date":"01/01/2024",
-            "location":"São Paulo - SP",
+            "title":"recomendação número 4",
+            "date":"01/01/2024 a 31/12/2024",
+            "location":"Brasil/BR",
             "link":"https://www.google.com"
         },
         {
-            "title":"título3",
-            "date":"01/01/2024",
-            "location":"São Paulo - SP",
+            "title":"recomendação número 5",
+            "date":"01/01/2024 a 31/12/2024",
+            "location":"Brasil/BR",
             "link":"https://www.google.com"
-        },
-        {
-            "title":"título4",
-            "date":"01/01/2024",
-            "location":"São Paulo - SP",
-            "link":"https://www.google.com"
-        },
-        {
-            "title":"título5",
-            "date":"01/01/2024",
-            "location":"São Paulo - SP",
-            "link":"https://www.google.com"
-        },
+        }
     ]
 }
