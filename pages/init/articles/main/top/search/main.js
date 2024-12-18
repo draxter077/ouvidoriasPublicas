@@ -9,7 +9,7 @@ export default function search(){
         }`
 
     const search = createElementToPage(undefined, "input", style)
-    search.placeholder = "Pesquise eventos por título, lugar ou data"
+    search.placeholder = "Pesquise artigos por título, autor ou data"
     search.oninput = function a(e){
         const value = e.target.value.replaceAll(" ", "")
         const options = e.target.parentElement.parentElement.children[1].children[1].children

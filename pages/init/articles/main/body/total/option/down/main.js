@@ -1,7 +1,7 @@
-import place from "./place/main.js"
+import author from "./author/main.js"
 import date from "./date/main.js"
 
-export default function down(d, l){
+export default function down(d, a){
     let style = `
         {
             display: flex;
@@ -14,7 +14,7 @@ export default function down(d, l){
         }`
 
     const down = createElementToPage(undefined, "div", style)
-    down.appendChild(place(l))
+    down.appendChild(author(a))
     down.appendChild(date(d))
     return(down)
 }

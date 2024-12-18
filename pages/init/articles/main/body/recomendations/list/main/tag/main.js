@@ -1,7 +1,7 @@
 import up from "./up/main.js"
 import down from "./down/main.js"
 
-export default function tag(t, d, l){
+export default function tag(t, d, a){
     let style = `
         {
             position: absolute;
@@ -18,6 +18,6 @@ export default function tag(t, d, l){
 
     const tag = createElementToPage(undefined, "div", style)
     tag.appendChild(up(t))
-    tag.appendChild(down(d, l))
+    tag.appendChild(down(d, a))
     return(tag)
 }

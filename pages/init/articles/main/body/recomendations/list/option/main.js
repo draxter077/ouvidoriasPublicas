@@ -2,7 +2,7 @@ import up from "./up/main.js"
 import down from "./down/main.js"
 import toClick from "./toClick/main.js"
 
-export default function option(t, d, l, h){
+export default function option(t, d, a, h){
     let style = `
         {
             position: relative;
@@ -26,7 +26,7 @@ export default function option(t, d, l, h){
 
     const option = createElementToPage(undefined, "button", style)
     option.appendChild(up(t))
-    option.appendChild(down(d, l))
+    option.appendChild(down(d, a))
     option.appendChild(toClick(h))
     return(option)
 }

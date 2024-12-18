@@ -10,6 +10,6 @@ export default function title(){
         }`
 
     const title = createElementToPage(undefined, "div", style)
-    title.innerHTML = "Eventos recomendados"
+    title.innerHTML = "Artigos recomendados"
     return(title)
 }

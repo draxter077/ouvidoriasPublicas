@@ -22,7 +22,7 @@ export default function main(e){
 
     const main = createElementToPage(undefined, "div", style)
     main.appendChild(img(e.img))
-    main.appendChild(tag(e.title, e.date, e.location))
+    main.appendChild(tag(e.title, e.date, e.author))
     main.appendChild(toClick(e.link))
     main.onmouseover = function a(e){
         e.target.parentElement.children[0].style.transform = "scale(1.05)"
