@@ -15,27 +15,27 @@ export default
             "link":"https://repositorio.ipea.gov.br/handle/11058/9709"
         },
         {
-            "title":"recomendação número 2",
-            "date":"01/01/2024 a 31/12/2024",
-            "author":"Brasil/BR",
-            "link":"https://www.google.com"
+            "title":"As ouvidorias públicas como instrumento de transparência: aspectos jurídicos e federativos",
+            "date":"2023",
+            "author":"Óthon Piccini e Daniel Falcão",
+            "link":"https://periodicos.ufsc.br/index.php/sequencia/article/view/86824"
         },
         {
             "title":"recomendação número 3",
-            "date":"01/01/2024 a 31/12/2024",
-            "author":"Brasil/BR",
+            "date":"2024",
+            "author":"Autor da Silva",
             "link":"https://www.google.com"
         },
         {
             "title":"recomendação número 4",
-            "date":"01/01/2024 a 31/12/2024",
-            "author":"Brasil/BR",
+            "date":"2024",
+            "author":"Autor da Silva",
             "link":"https://www.google.com"
         },
         {
             "title":"recomendação número 5",
-            "date":"01/01/2024 a 31/12/2024",
-            "author":"Brasil/BR",
+            "date":"2024",
+            "author":"Autor da Silva",
             "link":"https://www.google.com"
         }
     ]

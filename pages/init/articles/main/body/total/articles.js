@@ -1,6 +1,12 @@
 export default
 [
     {
+        "title":"As ouvidorias públicas como instrumento de transparência: aspectos jurídicos e federativos",
+        "date":"2023",
+        "author":"Óthon Piccini e Daniel Falcão",
+        "link":"https://periodicos.ufsc.br/index.php/sequencia/article/view/86824"
+    },
+    {
         "title":"Modelos de Ouvidorias Públicas",
         "date":"2016",
         "author":"Manoel Eduardo Alves Camargo e Gomes",
