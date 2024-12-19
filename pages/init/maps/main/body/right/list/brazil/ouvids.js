@@ -14,6 +14,18 @@ export default
         {
           "title": "ABIN", 
           "data": "ouvidoria@abin.gov.br"
+        },
+        {
+          "title": "Marinha", 
+          "data": "com7dn.ouvidoria@marinha.mil.br"
+        },
+        {
+          "title": "CGU", 
+          "data": "cguouvidor@cgu.gov.br"
+        },
+        {
+          "title": "Polícia Rodoviária Federal", 
+          "data": "ouvidoria@prf.gov.br"
         }
       ]
     },
