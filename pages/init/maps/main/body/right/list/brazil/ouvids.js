@@ -4,7 +4,7 @@ export default
       "name": "Federal", 
       "info": [
         {
-          "title": "Ouvidoria Geral da AGU", 
+          "title": "AGU", 
           "data": "ouvidoriageral@agu.gov.br"
         },
         {
