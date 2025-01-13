@@ -8,7 +8,7 @@ export default function road(){
             padding: 10px;
             background: var(--colorWhite);
             border-radius: 5px;
-            overflow-x: scroll;
+            box-shadow: 0px 0px 5px 0px var(--colorWhite);
         }
         :responsive{
             height: 85%;

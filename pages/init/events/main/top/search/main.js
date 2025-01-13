@@ -6,6 +6,9 @@ export default function search(){
             box-shadow: 0px 0px 2px 0px var(--colorBlack);
             width: 30%;
             transition: box-shadow var(--transitionTime);
+        }
+        :hover{
+            box-shadow: 0px 0px 3px 1px var(--colorOrange);
         }`
 
     const search = createElementToPage(undefined, "input", style)

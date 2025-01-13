@@ -11,6 +11,7 @@ export default function main(){
             padding: 20px;
             border-radius: 15px;
             background: var(--colorWhite);
+            box-shadow: 0px 0px 5px 0px var(--colorWhite);
         }
         :responsive{
             height: 85%;

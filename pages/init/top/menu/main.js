@@ -23,7 +23,7 @@ export default function menu(){
             bottom: 0%;
             height: 1px;
             width: 0%;
-            background: var(--colorBlue);  
+            background: var(--colorOrange);  
             transition: width var(--transitionTime);
         }
         >button:hover::after{

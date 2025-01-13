@@ -2,7 +2,8 @@ export default function title(){
     let style = `
         {
             font-size: 35px;
-            opacity: 1;
+            font-weight: 900;
+            color: var(--colorOrange);
         }`
 
     const title = createElementToPage(undefined, "div", style)

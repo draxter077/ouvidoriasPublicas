@@ -8,7 +8,6 @@ export default function news(){
             width: 100%;
             height: 100dvh;
             padding: 0px 10px 10px;
-            background: var(--backgroundColorBlue);
         }` 
 
     const news = createElementToPage(undefined, "div", style)

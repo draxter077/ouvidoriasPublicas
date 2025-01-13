@@ -8,7 +8,6 @@ export default function events(){
             width: 100%;
             height: 100dvh;
             padding: 0px 10px 10px;
-            background: var(--backgroundColorBlue);
         }` 
 
     const events = createElementToPage(undefined, "div", style)

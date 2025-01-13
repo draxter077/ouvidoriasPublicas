@@ -2,6 +2,7 @@ export default function img(){
     let style = `
         {
             height: 100%;
+            width: 100%;
         }`
 
     const img = createElementToPage(undefined, "img", style)

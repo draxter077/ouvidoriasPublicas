@@ -7,6 +7,9 @@ export default function search(){
             width: 30%;
             transition: box-shadow var(--transitionTime);
         }
+        :hover{
+            box-shadow: 0px 0px 3px 1px var(--colorOrange);
+        }
         :responsive{
             width: 50%;
         }`

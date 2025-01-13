@@ -21,11 +21,11 @@
 	to{width: 100%;}
 }
 :root{
-	--colorWhite: rgb(245, 245, 245);
+	--colorWhite: rgb(255, 255, 255);
 	--colorBlack: rgb(10, 10, 10);
 	--colorOrange: rgb(243, 111, 33);
-	--colorBlue: rgb(100, 120, 255);
-	--backgroundColorBlue: rgb(100, 120, 255, 0.4);
+	--colorBlue: rgb(0, 105, 255);
+	--backgroundColorWhite: rgb(225, 225, 225);
 	--transitionTime: 0.5s;
 	--animationDelay0: 0s;
 	--animationDelay1: 0.5s;
@@ -35,12 +35,13 @@
 body{
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
-	color: var(--colorBlue);
 	cursor: default;
+	color: var(--colorBlue);
+	background: var(--backgroundColorWhite);
 }
 ::-webkit-scrollbar{
-    width: 5px;
-	height: 5px;
+    width: 0px;
+	height: 0px;
 	background: none;
 }
 ::-webkit-scrollbar-track{
