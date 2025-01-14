@@ -25,7 +25,7 @@
 	--colorBlack: rgb(10, 10, 10);
 	--colorOrange: rgb(243, 111, 33);
 	--colorBlue: rgb(0, 105, 255);
-	--backgroundColorWhite: rgb(225, 225, 225);
+	--backgroundColorBlue: rgb(0, 105, 255, 0.4);
 	--transitionTime: 0.5s;
 	--animationDelay0: 0s;
 	--animationDelay1: 0.5s;
@@ -37,7 +37,7 @@ body{
 	font-family: "Roboto", sans-serif;
 	cursor: default;
 	color: var(--colorBlue);
-	background: var(--backgroundColorWhite);
+	background: var(--backgroundColorBlue);
 }
 ::-webkit-scrollbar{
     width: 0px;

@@ -2,6 +2,7 @@ export default function img(){
     let style = `
         {
             height: 100%;
+            border-radius: 100%;
         }
         :responsive{
             width: 100%;
