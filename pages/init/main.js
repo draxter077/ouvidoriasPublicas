@@ -1,5 +1,5 @@
 import top from "./top/main.js"
-import history from "./history/main.js"
+import apresentation from "./apresentation/main.js"
 import maps from "./maps/main.js"
 import events from "./events/main.js"
 import news from "./news/main.js"
@@ -14,7 +14,7 @@ export default function init(){
 
     const init = createElementToPage(undefined, "div", style)
     init.appendChild(top())
-    init.appendChild(history())
+    init.appendChild(apresentation())
     init.appendChild(maps())
     init.appendChild(events())
     init.appendChild(news())

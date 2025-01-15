@@ -1,6 +1,6 @@
 import road from "./road/main.js"
 
-export default function history(){
+export default function apresentation(){
     let style = `
         {
             display: flex;
@@ -10,8 +10,8 @@ export default function history(){
             padding: 0px 10px 10px;
         }` 
 
-    const history = createElementToPage(undefined, "div", style)
-    history.id = "História"
-    history.appendChild(road())
-    return(history)
+    const apresentation = createElementToPage(undefined, "div", style)
+    apresentation.id = "Apresentação"
+    apresentation.appendChild(road())
+    return(apresentation)
 }

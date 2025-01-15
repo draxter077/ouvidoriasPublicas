@@ -32,7 +32,7 @@ export default function menu(){
 
     const menu = createElementToPage(undefined, "div", style)
     
-    let btns = ["História", "Mapa", "Eventos", "Notícias", "Artigos"]
+    let btns = ["Apresentação", "Mapa", "Eventos", "Notícias", "Artigos"]
     for(let i = 0; i < btns.length; i++){
         let b = createElementToPage(undefined, "button", undefined)
         b.innerHTML = btns[i]
