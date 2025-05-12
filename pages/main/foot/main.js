@@ -19,6 +19,7 @@ export default function foot(){
         }`
 
     const foot = cE("div", style)
+    foot.id = "sobre"
     foot.innerHTML = "Esse projeto é uma parceria"
     foot.appendChild(img("./assets/logo.jpg","https://www.ph.net.br"))
     foot.appendChild(img("./assets/cg.png","https://www.camargoegomes.com"))
