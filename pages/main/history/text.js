@@ -14,6 +14,7 @@ export default
         rigorosa aplicação das “leis da metrópole”. Com o processo de emancipação do país, esse instituto português acabou por ser extinto 
         após a declaração de independência do Brasil, em 1822.`,
         src:"https://upload.wikimedia.org/wikipedia/commons/9/90/King_Charles_XIII_of_Sweden.jpg",
+        t:"Rei Carlos XIII da Suécia, criador do Ombudsman",
         w:"8%"
     },
     {
@@ -28,6 +29,7 @@ export default
         alterado para Ouvidoria-Geral da União (OGU), com competência para exercer a coordenação técnica do segmento de ouvidorias do Poder 
         Executivo federal.`,
         src:"https://static.wixstatic.com/media/090d7c_10eb0f039eb14f73a5be94aa38fbda1a~mv2.png/v1/fill/w_640,h_480,fp_0.65_0.53,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/090d7c_10eb0f039eb14f73a5be94aa38fbda1a~mv2.png",
+        t:"Manoel Eduardo Alves Camargo e Gomes, 1° Ouvidor Público do Brasil",
         w:"12%"
     },
     {
@@ -41,6 +43,7 @@ export default
         se consolidado como uma instância de controle e participação social, destinada ao aprimoramento da gestão pública. Atualmente o Poder Executivo federal conta com mais 
         de 300 ouvidorias, espalhadas pelos diversos órgãos e entidades e tratando de diversos temas, sob a coordenação da OGU.`,
         src:"https://www.gov.br/cgu/pt-br/assuntos/noticias/2021/03/ouvidoria-geral-da-uniao-divulga-relatorio-de-gestao-2020/predio-cgu-3.png/@@images/0ee061ee-7cdb-46e4-bfe0-86a52f877c6e.png",
+        t:"CGU",
         w:"20%"
     }
 ]

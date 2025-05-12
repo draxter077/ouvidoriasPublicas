@@ -11,6 +11,7 @@ export default function head(){
             width:100%;
             background:var(--colorBlue);
             padding:10px 20px;
+            box-shadow:0px 0px 5px 0px var(--colorBlue);
         }
         :responsive{
             flex-direction:column;

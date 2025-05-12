@@ -9,6 +9,7 @@ export default function section(t){
             justify-content:space-between;
             width:48%;
             height:400px;
+            border-bottom:1px solid var(--colorBlue);
         }
         :responsive{
             width:95%;

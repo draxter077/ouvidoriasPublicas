@@ -12,7 +12,6 @@ export default function foot(){
             font-size:22px;
             color:var(--colorBlue);
             padding:20px;
-            margin:40px 0px 0px 0px;
         }
         :responsive{
             font-size:17px;

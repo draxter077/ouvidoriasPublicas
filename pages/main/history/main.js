@@ -21,7 +21,7 @@ export default function history(){
     for(let i = 0; i < text.length; i++){
         let t = 1
         if(i%2==0){t = 0}
-        history.appendChild(section(text[i].text, text[i].src, text[i].w, t))
+        history.appendChild(section(text[i].text, text[i].src, text[i].w, text[i].t, t))
     }
     return(history)
 }

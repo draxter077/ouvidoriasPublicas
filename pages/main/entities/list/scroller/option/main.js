@@ -2,15 +2,19 @@ export default function option(){
     let style = `
         {
             width:95%;
-            background:var(--colorBlue);
+            background:var(--colorWhite);
             font-size:20px;
-            color:var(--colorWhite);
+            color:var(--colorBlue);
             padding:10px 15px;
             margin:5px;
             border-radius:5px;
+        }
+        :responsive{
+            font-size:17px;
+            padding:5px 10px;
         }`
 
     const option = cE("div", style)
-    option.innerHTML = "País 1"
+    option.innerHTML = "Região 1"
     return(option)
 }

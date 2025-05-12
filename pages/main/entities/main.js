@@ -6,9 +6,12 @@ export default function entities(){
         {
             display:flex;
             flex-direction:row;
-            justify-content:space-between;
-            width:95%;
+            justify-content:space-around;
+            width:100%;
             margin:40px 0px 0px 0px;
+            background:var(--colorBlue);
+            padding:20px;
+            box-shadow:0px 0px 10px 10px var(--colorBlue);
         }
         :responsive{
             flex-direction:column;

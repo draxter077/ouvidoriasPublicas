@@ -8,6 +8,10 @@ export default function option(){
             padding:10px 15px;
             margin:5px;
             border-radius:5px;
+        }
+        :responsive{
+            font-size:17px;
+            padding:5px 10px;
         }`
 
     const option = cE("div", style)

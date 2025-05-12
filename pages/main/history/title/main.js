@@ -7,6 +7,10 @@ export default function title(){
             padding:0px 10px;
             border-bottom:1px solid var(--colorBlue);
             margin:0px 0px 10px 0px;
+        }
+        :responsive{
+            font-size:28px;
+            margin:0px 0px 5px 0px;
         }`
 
     const title = cE("div", style)

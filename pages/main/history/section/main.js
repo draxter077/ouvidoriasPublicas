@@ -1,7 +1,7 @@
 import text from "./text/main.js"
 import img from "./img/main.js"
 
-export default function section(txt, src, w, type){
+export default function section(txt, src, w, t, type){
     let style = `
         {
             display:flex;
@@ -17,6 +17,6 @@ export default function section(txt, src, w, type){
 
     const section = cE("div", style)
     section.appendChild(text(txt))
-    section.appendChild(img(src, w))
+    section.appendChild(img(src, w, t))
     return(section)
 }

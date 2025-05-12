@@ -10,6 +10,9 @@ export default function list(){
         :responsive{
             width:100%;
             height:200px;
+        }
+        ::-webkit-scrollbar-thumb{
+            background:var(--colorWhite);
         }`
 
     const list = cE("div", style)

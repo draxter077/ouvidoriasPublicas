@@ -1,9 +1,9 @@
 export default function map(){
     let style = `
         {
-            width:60%;
-            aspect-ratio:2;
+            width:30%;
             border-radius:15px;
+            box-shadow:0px 0px 5px 0px var(--colorWhite);
         }
         :responsive{
             width:95%;
@@ -11,6 +11,6 @@ export default function map(){
         }`
 
     const map = cE("img", style)
-    map.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG/1200px-A_large_blank_world_map_with_oceans_marked_in_blue.PNG"
+    map.src = "https://media.istockphoto.com/id/1357215697/pt/vetorial/doodle-freehand-drawing-of-brazil-map.jpg?s=612x612&w=0&k=20&c=79P5qPmsz0iTthACt89oxcyjrsvGOG1gtLkLdD-yNUo="
     return(map)
 }
