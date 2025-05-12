@@ -8,13 +8,13 @@ export default function articles(){
             flex-wrap:wrap;
             justify-content:space-evenly;
             width:100%;
-            margin:10px 0px 0px 0px;
+            margin:30px 0px 0px 0px;
         }`
 
     const articles = cE("div", style)
-    articles.appendChild(article())
-    articles.appendChild(article())
-    articles.appendChild(article())
-    articles.appendChild(article())
+    articles.appendChild(article("Modelo de Ouvidorias Públicas no Brasil", "Manoel Eduardo Alves Camargo e Gomes"))
+    articles.appendChild(article("Modelo de Ouvidorias Públicas no Brasil", "Manoel Eduardo Alves Camargo e Gomes"))
+    articles.appendChild(article("Modelo de Ouvidorias Públicas no Brasil", "Manoel Eduardo Alves Camargo e Gomes"))
+    articles.appendChild(article("Modelo de Ouvidorias Públicas no Brasil", "Manoel Eduardo Alves Camargo e Gomes"))
     return(articles)
 }

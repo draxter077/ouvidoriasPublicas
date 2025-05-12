@@ -178,6 +178,7 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     :root{
     	--colorWhite:rgb(255,255,255);
     	--colorBlack:rgb(0,0,0);
+        --colorBlack07:rgb(0,0,0,0.7);
         --colorBlue:rgb(100,180,255);
     	--transitionTime:0.5s;
     	--animationDelay0:0s;
