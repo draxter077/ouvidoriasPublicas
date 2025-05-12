@@ -7,6 +7,8 @@ export default function outdoor(){
             display:flex;
             flex-direction:column;
             width:100%;
+            height:fit-content;
+            overflow-x:hidden;
             margin:20px 0px 0px 0px;
         }`
 

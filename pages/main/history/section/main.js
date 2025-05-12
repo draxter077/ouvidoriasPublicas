@@ -1,13 +1,14 @@
 import text from "./text/main.js"
 import img from "./img/main.js"
 
-export default function section(txt, src, type){
+export default function section(txt, src, w, type){
     let style = `
         {
             display:flex;
             flex-direction:${type == 0 ? "row" : "row-reverse"};
             align-items:center;
             width:95%;
+            margin:5px 0px;
         }
         :responsive{
             flex-direction:column;
@@ -16,6 +17,6 @@ export default function section(txt, src, type){
 
     const section = cE("div", style)
     section.appendChild(text(txt))
-    section.appendChild(img(src))
+    section.appendChild(img(src, w))
     return(section)
 }

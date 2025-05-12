@@ -1,16 +1,17 @@
-export default function img(src){
+export default function img(src, w){
     let style = `
         {
-            width:8%;
-            aspect-ratio:1;
-            margin:0px 10px;
-            background:black;
+            width:${w};
+            margin:0px 20px;
+            border-radius:10px;
+            box-shadow:0px 0px 2px 0px var(--colorBlack);
         }
         :responsive{
-            width:50%;
-            margin:5px 0px;
+            width:60%;
+            margin:10px 0px;
         }`
 
-    const img = cE("div", style)
+    const img = cE("img", style)
+    img.src = src
     return(img)
 }

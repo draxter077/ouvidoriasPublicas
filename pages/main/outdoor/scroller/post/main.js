@@ -5,6 +5,9 @@ export default function post(){
             aspect-ratio:2;
             background:black;
             margin:10px;
+        }
+        :responsive{
+            height:150px;
         }`
 
     const post = cE("div", style)
